@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+Thumbs.db
+# Screenshots and renders can contain Blizzard icons: keep them out of the repo
+*.png
+# Internal build plan (mentions the studio setup): kept local
+PLAN.md

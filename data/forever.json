@@ -1,0 +1,1645 @@
+{
+  "version": 1,
+  "asOf": "2026-10-26",
+  "game": "WoW Forever",
+  "tags": { "dev": "Confirmed (dev notes)", "classic": "From Classic", "community": "Community view", "ours": "Our read" },
+  "sources": {
+    "deep-dive": { "name": "Deep Dive Panel Recap", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24303313", "date": "2026-09-13", "kind": "official" },
+    "races": { "name": "Create the Hero You Want to Be", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24304075", "date": "2026-09-22", "kind": "official" },
+    "skyborne": { "name": "Meet the New Skyborne", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24302071", "date": "2026-09-22", "kind": "official" },
+    "legacy": { "name": "Get to Know the Legacy System", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24307383", "date": "2026-09-23", "kind": "official" },
+    "dd-hun-dru": { "name": "Class Deep Dives: Hunter and Druid", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24301515", "date": "2026-09-30", "kind": "official" },
+    "dd-pri-war": { "name": "Class Deep Dives: Priest and Warrior", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24301514", "date": "2026-09-30", "kind": "official" },
+    "dd-mag-sha": { "name": "Class Deep Dives: Mage and Shaman", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24302097", "date": "2026-10-07", "kind": "official" },
+    "dd-rog-wlk": { "name": "Class Deep Dives: Rogue and Warlock", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24310968", "date": "2026-10-07", "kind": "official" },
+    "dd-pal": { "name": "Class Deep Dives: Paladin", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24302099", "date": "2026-10-15", "kind": "official" },
+    "rulesets": { "name": "Choose Your Ruleset (updated Oct 22)", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24302070", "date": "2026-10-22", "kind": "official" },
+    "raids": { "name": "Raid Overview: Locations, Sizes and Attunement", "site": "news.blizzard.com", "url": "https://news.blizzard.com/en-us/article/24303009", "date": "2026-10-20", "kind": "official" },
+    "dn-sep24": {
+      "name": "Beta Development Notes (Sep 24)",
+      "site": "us.forums.blizzard.com",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/1",
+      "date": "2026-09-24",
+      "kind": "official"
+    },
+    "dn-oct1": {
+      "name": "Beta Development Notes (Oct 1)",
+      "site": "us.forums.blizzard.com",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/4",
+      "date": "2026-10-01",
+      "kind": "official"
+    },
+    "dn-oct8": {
+      "name": "Beta Development Notes (Oct 8)",
+      "site": "us.forums.blizzard.com",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/5",
+      "date": "2026-10-08",
+      "kind": "official"
+    },
+    "dn-oct15": {
+      "name": "Beta Development Notes (Oct 15)",
+      "site": "us.forums.blizzard.com",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6",
+      "date": "2026-10-15",
+      "kind": "official"
+    },
+    "war-oct2": { "name": "Warrior Updates in Today's Beta Build", "site": "us.forums.blizzard.com", "url": "https://us.forums.blizzard.com/en/wow/t/warrior-updates-in-todays-beta-build/2369360/1", "date": "2026-10-02", "kind": "official" },
+    "aggrend-xp": {
+      "name": "Podcast Ep. 3 follow-up: dungeon XP (Aggrend)",
+      "site": "us.forums.blizzard.com",
+      "url": "https://us.forums.blizzard.com/en/wow/t/the-wow-forever-podcast-episode-3-dive-into-dungeons-with-devs-ft-hammerdancegaming/2376010/20",
+      "date": "2026-10-08",
+      "kind": "official"
+    },
+    "census": { "name": "ClassicPlus.io beta census (Oct 25 snapshot)", "site": "classicplus.io", "url": "https://classicplus.io/", "date": "2026-10-25", "kind": "census" },
+    "wt-war": { "name": "Warcraft Tavern: Warrior guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/warrior/", "date": "n.d.", "kind": "guide" },
+    "wt-war-lvl": { "name": "Warcraft Tavern: Warrior leveling", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/warrior-leveling/", "date": "n.d.", "kind": "guide" },
+    "wt-pal": { "name": "Warcraft Tavern: Paladin guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/paladin/", "date": "n.d.", "kind": "guide" },
+    "wt-pal-lvl": { "name": "Warcraft Tavern: Paladin leveling", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/paladin-leveling/", "date": "n.d.", "kind": "guide" },
+    "wt-pal-news": {
+      "name": "Warcraft Tavern: Seal Twisting and Shockadins",
+      "site": "warcrafttavern.com",
+      "url": "https://www.warcrafttavern.com/forever/news/seal-twisting-shockadins-paladin-deep-dive-for-wow-forever/",
+      "date": "2026-10-15",
+      "kind": "guide"
+    },
+    "wt-hun": { "name": "Warcraft Tavern: Hunter guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/hunter/", "date": "n.d.", "kind": "guide" },
+    "wt-rog": { "name": "Warcraft Tavern: Rogue guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/rogue/", "date": "n.d.", "kind": "guide" },
+    "wt-rog-lvl": { "name": "Warcraft Tavern: Rogue leveling", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/rogue-leveling/", "date": "n.d.", "kind": "guide" },
+    "wt-dru": { "name": "Warcraft Tavern: Druid guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/druid/", "date": "n.d.", "kind": "guide" },
+    "wt-dru-lvl": { "name": "Warcraft Tavern: Druid leveling", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/druid-leveling/", "date": "n.d.", "kind": "guide" },
+    "wt-pri-lvl": { "name": "Warcraft Tavern: Priest leveling", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/priest-leveling/", "date": "n.d.", "kind": "guide" },
+    "wt-mag": { "name": "Warcraft Tavern: Mage guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/mage/", "date": "n.d.", "kind": "guide" },
+    "wt-mag-lvl": { "name": "Warcraft Tavern: Mage leveling", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/mage-leveling/", "date": "n.d.", "kind": "guide" },
+    "wt-sha": { "name": "Warcraft Tavern: Shaman guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/shaman/", "date": "n.d.", "kind": "guide" },
+    "wt-sha-lvl": { "name": "Warcraft Tavern: Shaman leveling", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/shaman-leveling/", "date": "n.d.", "kind": "guide" },
+    "wt-wlk": { "name": "Warcraft Tavern: Warlock guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/warlock/", "date": "n.d.", "kind": "guide" },
+    "wt-wlk-lvl": { "name": "Warcraft Tavern: Warlock leveling", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/warlock-leveling/", "date": "n.d.", "kind": "guide" },
+    "wt-prof": { "name": "Warcraft Tavern: Professions overview", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/professions/", "date": "n.d.", "kind": "guide" },
+    "wt-alc": { "name": "Warcraft Tavern: Alchemy guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/alchemy/", "date": "n.d.", "kind": "guide" },
+    "wt-eng": { "name": "Warcraft Tavern: Engineering guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/engineering/", "date": "n.d.", "kind": "guide" },
+    "wt-herb": { "name": "Warcraft Tavern: Herbalism guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/herbalism/", "date": "n.d.", "kind": "guide" },
+    "wt-min": { "name": "Warcraft Tavern: Mining guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/mining/", "date": "n.d.", "kind": "guide" },
+    "wt-skin": { "name": "Warcraft Tavern: Skinning guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/skinning/", "date": "n.d.", "kind": "guide" },
+    "wt-tail": { "name": "Warcraft Tavern: Tailoring guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/tailoring/", "date": "n.d.", "kind": "guide" },
+    "wt-camp": { "name": "Warcraft Tavern: Camping objects and buffs", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/camping-objects-buffs/", "date": "n.d.", "kind": "guide" },
+    "wt-fish": { "name": "Warcraft Tavern: Fishing guide", "site": "warcrafttavern.com", "url": "https://www.warcrafttavern.com/forever/guides/fishing/", "date": "n.d.", "kind": "guide" },
+    "wt-lfg-tag": {
+      "name": "Warcraft Tavern: Playstyle selection now required for LFG",
+      "site": "warcrafttavern.com",
+      "url": "https://www.warcrafttavern.com/forever/news/playstyle-selection-now-required-for-lfg-in-wow-forever/",
+      "date": "2026-10-02",
+      "kind": "guide"
+    },
+    "method-war": { "name": "Method: Warrior leveling guide", "site": "method.gg", "url": "https://www.method.gg/wow-forever/wow-forever-warrior-leveling-guide-and-talents", "date": "2026-10-09", "kind": "guide" },
+    "method-pal": { "name": "Method: Paladin leveling guide", "site": "method.gg", "url": "https://www.method.gg/wow-forever/wow-forever-paladin-leveling-guide-and-talents", "date": "2026-10-10", "kind": "guide" },
+    "method-hun": { "name": "Method: Hunter leveling guide", "site": "method.gg", "url": "https://www.method.gg/wow-forever/wow-forever-hunter-leveling-guide-and-talents", "date": "2026-10-21", "kind": "guide" },
+    "method-rog": { "name": "Method: Rogue leveling guide", "site": "method.gg", "url": "https://www.method.gg/wow-forever/wow-forever-rogue-leveling-guide-and-talents", "date": "2026-10-09", "kind": "guide" },
+    "method-dru": { "name": "Method: Druid leveling guide", "site": "method.gg", "url": "https://www.method.gg/wow-forever/wow-forever-druid-leveling-guide-and-talents", "date": "2026-09-29", "kind": "guide" },
+    "method-pri": { "name": "Method: Priest leveling guide", "site": "method.gg", "url": "https://www.method.gg/wow-forever/wow-forever-priest-leveling-guide-and-talents", "date": "2026-10-04", "kind": "guide" },
+    "method-mag": { "name": "Method: Mage leveling guide", "site": "method.gg", "url": "https://www.method.gg/wow-forever/wow-forever-mage-leveling-guide-and-talents", "date": "2026-10-21", "kind": "guide" },
+    "method-sha": { "name": "Method: Shaman leveling guide", "site": "method.gg", "url": "https://www.method.gg/wow-forever/wow-forever-shaman-leveling-guide-and-talents", "date": "2026-10-23", "kind": "guide" },
+    "ntb-lvl": { "name": "NoobToBoss: leveling tier list", "site": "noobtoboss.com", "url": "https://noobtoboss.com/wowforever-leveling-tierlist/", "date": "2026-10-19", "kind": "guide" },
+    "ntb-tier": { "name": "NoobToBoss: tier list", "site": "noobtoboss.com", "url": "https://noobtoboss.com/wowforever-tierlist/", "date": "2026-10-19", "kind": "guide" },
+    "rb-pve": { "name": "RankedBoost: tier list", "site": "rankedboost.com", "url": "https://rankedboost.com/world-of-warcraft/forever/tier-list/", "date": "2026-10-17", "kind": "guide" },
+    "rb-pvp": { "name": "RankedBoost: PvP tier list", "site": "rankedboost.com", "url": "https://rankedboost.com/world-of-warcraft/forever/tier-list/pvp/", "date": "2026-10-17", "kind": "guide" },
+    "timesaver": { "name": "Timesaver.gg: PvP class tier list", "site": "timesaver.gg", "url": "https://timesaver.gg/blog/wow-forever-best-pvp-class-tier-list", "date": "2026-10-13", "kind": "guide" },
+    "kami-class": { "name": "Kami Labs: Which WoW Forever class to pick?", "site": "kami-labs.fr", "url": "https://kami-labs.fr/en/wow-forever/quelle-classe-choisir-wow-forever/", "date": "2026-10-21", "kind": "guide" },
+    "meinmmo": { "name": "MeinMMO: The 5 biggest winners of the beta", "site": "mein-mmo.de", "url": "https://mein-mmo.de/en/wow-forever-the-5-biggest-winners-of-the-beta,1592888/", "date": "2026-10-19", "kind": "guide" },
+    "seemeta-lvl": { "name": "Seemeta: leveling tier list", "site": "seemeta.com", "url": "https://seemeta.com/en/wow-forever/leveling-tier-list", "date": "2026-10-18", "kind": "guide" },
+    "seemeta-pve": { "name": "Seemeta: PvE tier list", "site": "seemeta.com", "url": "https://seemeta.com/en/wow-forever/tier-list", "date": "2026-10-16", "kind": "guide" },
+    "seemeta-pvp": { "name": "Seemeta: PvP tier list", "site": "seemeta.com", "url": "https://seemeta.com/en/wow-forever/pvp-tier-list", "date": "2026-10-18", "kind": "guide" },
+    "blizzwatch-sky": { "name": "Blizzard Watch: getting Skyborne to Stormwind and Orgrimmar", "site": "blizzardwatch.com", "url": "https://blizzardwatch.com/2026/10/14/skyborne-stormwind-org-fast-wow-forever/", "date": "2026-10-14", "kind": "guide" },
+    "wiki-warlock": { "name": "Warcraft Wiki: Warlock", "site": "warcraft.wiki.gg", "url": "https://warcraft.wiki.gg/wiki/Warlock", "date": "n.d.", "kind": "guide" }
+  },
+  "factions": [
+    {
+      "id": "h",
+      "name": "Horde",
+      "icon": "inv_bannerpvp_01",
+      "facts": [
+        { "t": "Horde races: Orc, Undead, Tauren, Troll and the new Windshaper Skyborne.", "tag": "dev", "src": "races" },
+        { "t": "Undead are the Horde's only Paladins, a pairing new in Forever.", "tag": "dev", "src": "races" },
+        { "t": "Horde made up 51.4% of beta characters.", "tag": "community", "src": "census", "beta": true },
+        { "t": "Horde and Alliance still can't group together.", "tag": "dev", "src": "rulesets" }
+      ]
+    },
+    {
+      "id": "a",
+      "name": "Alliance",
+      "icon": "inv_bannerpvp_02",
+      "facts": [
+        { "t": "Alliance races: Human, Dwarf, Night Elf, Gnome and the new High Order Skyborne.", "tag": "dev", "src": "races" },
+        { "t": "Dwarves are the Alliance's only Shamans, a pairing new in Forever.", "tag": "dev", "src": "races" },
+        { "t": "Alliance made up 48.6% of beta characters overall, but 50.9% on the PvP ruleset.", "tag": "community", "src": "census", "beta": true },
+        { "t": "Horde and Alliance still can't group together.", "tag": "dev", "src": "rulesets" }
+      ]
+    }
+  ],
+  "races": [
+    {
+      "id": "orc",
+      "name": "Orc",
+      "faction": "h",
+      "icon": "racial_orc_berserkerstrength",
+      "look": "Broad, green-skinned and tusked, with heavy shoulders and a brawler's forward lean.",
+      "lore": "Free of their demonic past, orcs fight for honor and a homeland in a world that distrusts them.",
+      "start": "Valley of Trials (Durotar)",
+      "capital": "Orgrimmar",
+      "classes": ["war", "hun", "rog", "sha", "mag", "wlk"],
+      "racials": [
+        { "name": "Blood Fury", "kind": "active", "t": "+10% Attack Power and Spell Power for 15 sec. Cooldown now 3 min (was 2).", "tag": "dev", "src": "dn-oct15", "icon": "racial_orc_berserkerstrength" },
+        { "name": "Shatter Curse", "kind": "active", "t": "Now dispels Curses and Banes, and cuts magic damage taken by 5% (was 15%).", "tag": "dev", "src": "dn-oct15", "icon": "spell_nature_removecurse" },
+        { "name": "Savage", "kind": "passive", "t": "+1% critical strike chance. Replaces Axe Specialization.", "tag": "dev", "src": "dn-oct15", "icon": "inv_axe_02" },
+        { "name": "Hardiness", "kind": "passive", "t": "Stuns on you last 20% shorter.", "tag": "dev", "src": "races", "icon": "inv_helmet_23" }
+      ],
+      "census": { "share": 9.7, "src": "census" },
+      "facts": [
+        { "t": "Orc Mage is one of six race and class pairings new in Forever.", "tag": "dev", "src": "deep-dive" }
+      ],
+      "flags": ["nerf-fear"]
+    },
+    {
+      "id": "und",
+      "name": "Undead",
+      "faction": "h",
+      "icon": "spell_shadow_raisedead",
+      "look": "Gaunt and half-decayed, with glowing eyes and bare bone; eerie, hunched and theatrical.",
+      "lore": "Former humans who broke free of the Lich King, now seeking survival and revenge under Sylvanas.",
+      "start": "Deathknell (Tirisfal Glades)",
+      "capital": "Undercity",
+      "classes": ["war", "pal", "rog", "pri", "mag", "wlk"],
+      "racials": [
+        { "name": "Will of the Forsaken", "kind": "active", "t": "Removes Charm, Fear and Sleep, but no longer grants immunity afterward.", "tag": "dev", "src": "deep-dive", "icon": "spell_shadow_raisedead" },
+        { "name": "Cannibalize", "kind": "active", "t": "Eat a corpse to regenerate 35% of your Health, and now Mana too.", "tag": "dev", "src": "races", "icon": "ability_racial_cannibalize" },
+        { "name": "Underwater Breathing", "kind": "passive", "t": "Breathe 300% longer underwater.", "tag": "dev", "src": "races", "icon": "spell_shadow_demonbreath" },
+        { "name": "Touch of the Grave", "kind": "passive", "t": "Attacks may drain health: 30% chance for casters, 20% for melee, 25-sec cooldown.", "tag": "dev", "src": "dn-oct15", "icon": "spell_shadow_fingerofdeath" }
+      ],
+      "census": { "share": 17.4, "src": "census" },
+      "facts": [
+        { "t": "Undead Paladin is new in Forever and the Horde's only Paladin.", "tag": "dev", "src": "races" },
+        { "t": "Undead Paladin was the most-created race and class pair in the beta, at 6.0%.", "tag": "community", "src": "census", "beta": true }
+      ],
+      "flags": ["popular", "nerf-fear"]
+    },
+    {
+      "id": "tau",
+      "name": "Tauren",
+      "faction": "h",
+      "icon": "ability_warstomp",
+      "look": "Huge, horned and hooved, with braids and totems; gentle giants who move with calm weight.",
+      "lore": "Plains folk of Mulgore who honor the Earth Mother and joined the Horde after the orcs aided them.",
+      "start": "Camp Narache (Mulgore)",
+      "capital": "Thunder Bluff",
+      "classes": ["war", "hun", "sha", "dru"],
+      "racials": [
+        { "name": "War Stomp", "kind": "active", "t": "Stuns nearby enemies for 2 sec. Cooldown now 90 sec (was 2 min).", "tag": "dev", "src": "dn-oct15", "icon": "ability_warstomp" },
+        { "name": "Cultivation", "kind": "active", "t": "Grows a bonus herb anyone can pick, no Herbalism needed. Cooldown now 15 min.", "tag": "dev", "src": "dn-oct15", "icon": "inv_misc_flower_01" },
+        { "name": "Plainsrunning", "kind": "passive", "t": "Speed builds while you keep moving, plus 3% mounted speed.", "tag": "dev", "src": "dn-oct15", "icon": "achievement_zone_barrens_01" },
+        { "name": "Endurance", "kind": "passive", "t": "+5% total Health and +2% critical damage and healing.", "tag": "dev", "src": "dn-oct15", "icon": "spell_nature_unyeildingstamina" }
+      ],
+      "census": { "share": 7.7, "src": "census" },
+      "facts": [],
+      "flags": ["rare"]
+    },
+    {
+      "id": "tro",
+      "name": "Troll",
+      "faction": "h",
+      "icon": "racial_troll_berserk",
+      "look": "Tall and lanky, blue- or green-skinned, with tusks, wild hair and a loping crouch.",
+      "lore": "The Darkspear tribe, driven from their jungle islands, found refuge and honor in Thrall's Horde.",
+      "start": "Valley of Trials (Durotar)",
+      "capital": "Orgrimmar",
+      "classes": ["war", "hun", "rog", "pri", "sha", "mag", "wlk"],
+      "racials": [
+        { "name": "Berserking", "kind": "active", "t": "+10% casting and attack speed for 10 sec.", "tag": "dev", "src": "races", "icon": "racial_troll_berserk" },
+        { "name": "Rapid Regeneration", "kind": "active", "t": "Regenerate 50% of your maximum Health over time.", "tag": "dev", "src": "races", "icon": "ability_racial_regeneratin" },
+        { "name": "Beast Slaying", "kind": "passive", "t": "+5% damage against Beasts.", "tag": "dev", "src": "races", "icon": "inv_misc_pelt_bear_ruin_02" },
+        { "name": "Regeneration", "kind": "passive", "t": "20% of your health regeneration continues during combat (was 10%).", "tag": "dev", "src": "dn-oct15", "icon": "spell_nature_regenerate" }
+      ],
+      "census": { "share": 7.1, "src": "census" },
+      "facts": [
+        { "t": "Troll Warlock is one of six race and class pairings new in Forever.", "tag": "dev", "src": "deep-dive" }
+      ],
+      "flags": ["rare"]
+    },
+    {
+      "id": "skh",
+      "name": "Windshaper Skyborne",
+      "faction": "h",
+      "icon": "ability_skyreach_lens_flare",
+      "look": "Slender, airy elves with feathered hair and wind tattoos, from sky-blue to darker skin tones.",
+      "lore": "Highborne descendants raised by Skywall's wind spirits, searching for their vanished elemental mentors.",
+      "start": "Zephras Isle",
+      "capital": "None of their own",
+      "classes": ["war", "hun", "rog", "sha", "dru"],
+      "racials": [
+        { "name": "Walk on Air", "kind": "active", "t": "Glide gently downward through the air for 10 sec. Cooldown now 90 sec (was 2 min).", "tag": "dev", "src": "dn-oct15", "icon": "inv_elemental_primal_air" },
+        { "name": "Skysight", "kind": "active", "t": "An Elemental Blessing: 10% faster run speed. Now castable while moving.", "tag": "dev", "src": "dn-oct15", "icon": "ability_skyreach_lens_flare" },
+        { "name": "Wind Blessed", "kind": "passive", "t": "+3% Haste for melee, ranged and spells (was 1%).", "tag": "dev", "src": "dn-oct15", "icon": "inv_misc_volatileair" },
+        { "name": "Elemental Insight", "kind": "passive", "t": "+5% damage against Elementals.", "tag": "dev", "src": "races", "icon": "achievement_raidprimalist_windelemental" }
+      ],
+      "census": { "share": 9.6, "src": "census" },
+      "facts": [
+        { "t": "They start on Zephras Isle, a new sky-island zone for levels 1–12.", "tag": "dev", "src": "skyborne" },
+        { "t": "After Zephras Isle, a skycutter carries Windshapers toward Thunder Bluff; Skyborne have no capital of their own.", "tag": "community", "src": "blizzwatch-sky" },
+        { "t": "Skyborne Druid was the most-created Windshaper pairing in the beta, at 2.9%.", "tag": "community", "src": "census", "beta": true }
+      ],
+      "flags": []
+    },
+    {
+      "id": "hum",
+      "name": "Human",
+      "faction": "a",
+      "icon": "spell_nature_sleep",
+      "look": "Familiar, balanced proportions: the everyday hero, from farmhand to shining knight.",
+      "lore": "A young, adaptable people rebuilding Stormwind's glory after generations of war.",
+      "start": "Northshire Valley (Elwynn Forest)",
+      "capital": "Stormwind",
+      "classes": ["war", "pal", "hun", "rog", "pri", "mag", "wlk"],
+      "racials": [
+        { "name": "Will to Survive", "kind": "active", "t": "Break free of stun effects.", "tag": "dev", "src": "races", "icon": "spell_shadow_charm" },
+        { "name": "Perception", "kind": "active", "t": "Detect stealthed enemies for 20 sec.", "tag": "dev", "src": "races", "icon": "spell_nature_sleep" },
+        { "name": "Ruthless", "kind": "passive", "t": "+2% critical strike chance. Replaces Sword Specialization.", "tag": "dev", "src": "dn-oct15", "icon": "ability_rogue_eviscerate" },
+        { "name": "The Human Spirit", "kind": "passive", "t": "+5% Spirit.", "tag": "dev", "src": "races", "icon": "inv_enchant_shardbrilliantsmall" }
+      ],
+      "census": { "share": 15.7, "src": "census" },
+      "facts": [
+        { "t": "Human Hunter is one of six race and class pairings new in Forever.", "tag": "dev", "src": "deep-dive" }
+      ],
+      "flags": ["popular"]
+    },
+    {
+      "id": "dwa",
+      "name": "Dwarf",
+      "faction": "a",
+      "icon": "spell_shadow_unholystrength",
+      "look": "Short, stout and barrel-chested, with grand braided beards; cheerful mountain folk.",
+      "lore": "Ironforge miners turned explorers, digging through old records of their titan-forged origins.",
+      "start": "Coldridge Valley (Dun Morogh)",
+      "capital": "Ironforge",
+      "classes": ["war", "pal", "hun", "rog", "pri", "sha"],
+      "racials": [
+        { "name": "Stoneform", "kind": "active", "t": "Immune to Bleeds, Poisons and Diseases, and less Physical damage taken, for 8 sec.", "tag": "dev", "src": "races", "icon": "spell_shadow_unholystrength" },
+        { "name": "Find Treasure", "kind": "active", "t": "Track treasure chests, now with a chance of extra items in most chests.", "tag": "dev", "src": "dn-oct15", "icon": "racial_dwarf_findtreasure" },
+        { "name": "Earth Fury", "kind": "passive", "t": "+2% critical damage and healing. Replaces Mace Specialization.", "tag": "dev", "src": "dn-oct15", "icon": "spell_shaman_unleashweapon_earth" },
+        { "name": "Big Game Hunter", "kind": "passive", "t": "+5% damage against Beasts.", "tag": "dev", "src": "races", "icon": "inv_weapon_rifle_05" }
+      ],
+      "census": { "share": 7.9, "src": "census" },
+      "facts": [
+        { "t": "Dwarves are the Alliance's only Shamans, new in Forever.", "tag": "dev", "src": "races" },
+        { "t": "Dwarf Shaman reached 4.1% of all beta characters.", "tag": "community", "src": "census", "beta": true }
+      ],
+      "flags": ["rare"]
+    },
+    {
+      "id": "nel",
+      "name": "Night Elf",
+      "faction": "a",
+      "icon": "ability_ambush",
+      "look": "Tall, slender and violet-skinned, with long ears and softly glowing eyes.",
+      "lore": "Ancient forest guardians stepping out of long isolation to face the Burning Legion again.",
+      "start": "Shadowglen (Teldrassil)",
+      "capital": "Darnassus",
+      "classes": ["war", "hun", "rog", "pri", "dru"],
+      "racials": [
+        { "name": "Elune's Light", "kind": "active", "t": "+10% critical strike chance for 15 sec.", "tag": "dev", "src": "races", "icon": "spell_nature_moonglow" },
+        { "name": "Shadowmeld", "kind": "active", "t": "Slip into stealth while standing still.", "tag": "dev", "src": "races", "icon": "ability_ambush" },
+        { "name": "Quickness", "kind": "passive", "t": "+1% Dodge and +2% run speed, now stacking with other speed boosts.", "tag": "dev", "src": "dn-oct15", "icon": "ability_racial_shadowmeld" },
+        { "name": "Wisp Spirit", "kind": "passive", "t": "Move 75% faster while dead.", "tag": "dev", "src": "races", "icon": "spell_nature_wispsplode" }
+      ],
+      "census": { "share": 8.6, "src": "census" },
+      "facts": [],
+      "flags": []
+    },
+    {
+      "id": "gno",
+      "name": "Gnome",
+      "faction": "a",
+      "icon": "ability_rogue_trip",
+      "look": "Tiny, big-headed and bright-eyed, with wild hair; quick and curious tinkerers.",
+      "lore": "Brilliant inventors who lost their city to invasion and now live and work beside the dwarves.",
+      "start": "Coldridge Valley (Dun Morogh)",
+      "capital": "Ironforge",
+      "classes": ["war", "rog", "pri", "mag", "wlk"],
+      "racials": [
+        { "name": "Escape Artist", "kind": "active", "t": "Brief immunity to roots and snares.", "tag": "dev", "src": "races", "icon": "ability_rogue_trip" },
+        { "name": "Eureka!", "kind": "active", "t": "An 8-sec buff: cheaper abilities and 10% more direct damage or healing.", "tag": "dev", "src": "dn-oct15", "icon": "inv_gnometoy" },
+        { "name": "Expansive Mind", "kind": "passive", "t": "+5% maximum Mana, Rage or Energy.", "tag": "dev", "src": "races", "icon": "inv_enchant_essenceeternallarge" },
+        { "name": "Engineering Specialization", "kind": "passive", "t": "Your engineering devices are more reliable.", "tag": "dev", "src": "races", "icon": "inv_misc_gear_01" }
+      ],
+      "census": { "share": 7.3, "src": "census" },
+      "facts": [
+        { "t": "Gnome Priest is new in Forever, with its own racial Priest spells.", "tag": "dev", "src": "dd-pri-war" }
+      ],
+      "flags": ["rare"]
+    },
+    {
+      "id": "ska",
+      "name": "High Order Skyborne",
+      "faction": "a",
+      "icon": "ability_mage_incantersabsorbtion",
+      "look": "The same airy, feathered elves, dressed in a scholarly, arcane-robed style.",
+      "lore": "Heirs of Eldre'Thalas scholars, returning to Azeroth to reclaim lost arcane knowledge.",
+      "start": "Zephras Isle",
+      "capital": "None of their own",
+      "classes": ["war", "hun", "rog", "mag", "dru"],
+      "racials": [
+        { "name": "Walk on Air", "kind": "active", "t": "Glide gently downward through the air for 10 sec. Cooldown now 90 sec (was 2 min).", "tag": "dev", "src": "dn-oct15", "icon": "inv_elemental_primal_air" },
+        { "name": "Read Ley Line", "kind": "active", "t": "Doubles Health and Mana regeneration; now castable while moving, lasting at least 30 sec.", "tag": "dev", "src": "dn-oct15", "icon": "ability_mage_incantersabsorbtion" },
+        { "name": "Wind Blessed", "kind": "passive", "t": "+3% Haste for melee, ranged and spells (was 1%).", "tag": "dev", "src": "dn-oct15", "icon": "inv_misc_volatileair" },
+        { "name": "Elemental Insight", "kind": "passive", "t": "+5% damage against Elementals.", "tag": "dev", "src": "races", "icon": "achievement_raidprimalist_windelemental" }
+      ],
+      "census": { "share": 9.1, "src": "census" },
+      "facts": [
+        { "t": "They start on Zephras Isle, a new sky-island zone for levels 1–12.", "tag": "dev", "src": "skyborne" },
+        { "t": "High Order Skyborne are the only Skyborne who can be Mages.", "tag": "dev", "src": "races" },
+        { "t": "After Zephras Isle, a skycutter carries the High Order to Dalaran, with a portal on to Stormwind.", "tag": "community", "src": "blizzwatch-sky" }
+      ],
+      "flags": []
+    }
+  ],
+  "classes": [
+    {
+      "id": "war",
+      "name": "Warrior",
+      "icon": "classicon_warrior",
+      "armor": "plate",
+      "census": { "share": 12.2, "src": "census" },
+      "facts": [
+        { "t": "Victory Rush arrives at 20: an instant strike after a kill that heals 10% of your max health.", "tag": "dev", "src": "dd-pri-war" },
+        { "t": "Blizzard: Warriors handle many melee foes at once but have few ways to recover from heavy damage.", "tag": "dev", "src": "dd-pri-war" },
+        { "t": "Every race on both factions can be a Warrior, Skyborne included.", "tag": "dev", "src": "races" }
+      ],
+      "specs": [
+        {
+          "id": "war-arms",
+          "name": "Arms",
+          "short": "Arms",
+          "icon": "ability_warrior_savageblow",
+          "roles": ["melee"],
+          "fantasy": "A disciplined weapon master who waits for the opening, then lands one crushing blow.",
+          "facts": {
+            "leveling": [
+              { "t": "Rage was rebalanced for questing armor on Oct 8, so most Warriors now gain more Rage while leveling.", "tag": "dev", "src": "dn-oct8" },
+              { "t": "Several leveling lists rank Warrior slowest solo: gear-reliant, little self-healing, but strong in groups.", "tag": "community", "src": "ntb-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Battle Shout now buffs your whole raid, not just your party.", "tag": "dev", "src": "dn-oct15" },
+              { "t": "Beta tier lists place Arms mid-pack for PvE damage, usually behind Fury.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Spearing Strike dismounts riders and deals double damage to mounted foes, Dragons and Giants.", "tag": "dev", "src": "dn-oct1" },
+              { "t": "At level 30, casters could kite Warriors until geared; a level-60 spike is expected but untested.", "tag": "community", "src": "timesaver", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Rage pooling, stance swaps and Overpower timing; Rage can feel slow early on.", "tag": "community", "src": "wt-war-lvl" },
+            "gear": { "level": 3, "t": "Damage leans on weapon quality, so every weapon upgrade feels big while leveling.", "tag": "community", "src": "wt-war" }
+          },
+          "changes": [
+            { "t": "Weaponmaster: one talent replaces every weapon specialization, tuned to the weapon you hold.", "tag": "dev", "src": "dd-pri-war" },
+            { "t": "Bloodthrill: hits on targets with your Rend can light up Overpower (20% chance).", "tag": "dev", "src": "dn-sep24" },
+            { "t": "Shield Wall, Recklessness and Retaliation no longer share a cooldown.", "tag": "dev", "src": "dd-pri-war" }
+          ],
+          "flags": ["downtime", "slow-level"]
+        },
+        {
+          "id": "war-fury",
+          "name": "Fury",
+          "short": "Fury",
+          "icon": "ability_warrior_innerrage",
+          "roles": ["melee"],
+          "fantasy": "A roaring storm of twin blades, fed by rage and never slowing down.",
+          "facts": {
+            "leveling": [
+              { "t": "An Oct 2 rework gave Fury more early leveling tools, like Lingering Rage to slow Rage decay.", "tag": "dev", "src": "war-oct2" },
+              { "t": "Fury kills quickly but takes a lot of damage, so expect more breaks to recover.", "tag": "community", "src": "wt-war-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Beta tier lists often rate Fury the strongest Warrior damage spec.", "tag": "community", "src": "rb-pve", "beta": true },
+              { "t": "In Classic Era, Warriors filled many raid slots, with Fury as the main melee damage.", "tag": "classic", "src": "wt-war" }
+            ],
+            "pvp": [
+              { "t": "Rated strong in PvP once geared, especially in battlegrounds with a healer behind you.", "tag": "community", "src": "kami-class", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "A priority rotation with Rage and off-hand hits to manage.", "tag": "community", "src": "wt-war" },
+            "gear": { "level": 3, "t": "Dual-wield damage depends on two good weapons, plus hit and crit.", "tag": "community", "src": "wt-war" }
+          },
+          "changes": [
+            { "t": "Whirlwind always hits with both weapons, and Raging Blows makes Cleave and Whirlwind cheaper.", "tag": "dev", "src": "war-oct2" },
+            { "t": "Bloodthirst no longer heals; it grants 10% movement speed instead.", "tag": "dev", "src": "war-oct2" },
+            { "t": "New Gore Drinker talent adds small heals after Enrage effects; Flurry now needs Death Wish.", "tag": "dev", "src": "war-oct2" }
+          ],
+          "flags": ["downtime", "slow-level", "nerf-fear"]
+        },
+        {
+          "id": "war-prot",
+          "name": "Protection",
+          "short": "Prot",
+          "icon": "ability_warrior_defensivestance",
+          "roles": ["tank"],
+          "fantasy": "An unbreakable shield wall that plants its feet and dares the enemy closer.",
+          "facts": {
+            "leveling": [
+              { "t": "Thunder Clap now works in Defensive Stance, and Vanguard lets you Charge from it.", "tag": "dev", "src": "dd-pri-war" },
+              { "t": "Some guides now suggest a shield build for solo play; others still prefer Arms.", "tag": "community", "src": "method-war" }
+            ],
+            "group": [
+              { "t": "Blizzard: any party or raid is happy to add a Warrior, as tank or damage dealer.", "tag": "dev", "src": "dd-pri-war" },
+              { "t": "Tank lists rate it solid, usually just behind Prot Paladin at level 30.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Blizzard opened a shield-free path into mid-Protection as a PvP secondary spec.", "tag": "dev", "src": "war-oct2" },
+              { "t": "As a full spec, Protection is rated low for PvP.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Threat, Rage and cooldown timing; Rage is now more forgiving for tanks.", "tag": "community", "src": "meinmmo" },
+            "gear": { "level": 2, "t": "Defense and shield gear matter for raids, but armor no longer starves your Rage.", "tag": "community", "src": "wt-war" }
+          },
+          "changes": [
+            { "t": "Rage from damage taken ignores Armor and absorbs, even Power Word: Shield.", "tag": "dev", "src": "dd-pri-war" },
+            { "t": "Vanguard lets you Charge while in Defensive Stance.", "tag": "dev", "src": "dd-pri-war" },
+            { "t": "Blocks, dodges and parries can each grant 5 Rage through talents.", "tag": "dev", "src": "dd-pri-war" }
+          ],
+          "flags": ["downtime", "slow-level", "group-heavy"]
+        }
+      ]
+    },
+    {
+      "id": "pal",
+      "name": "Paladin",
+      "icon": "classicon_paladin",
+      "armor": "plate",
+      "census": { "share": 11.7, "src": "census" },
+      "facts": [
+        { "t": "Judgement no longer consumes your Seal, so you recast less.", "tag": "dev", "src": "deep-dive" },
+        { "t": "Paladins still lack an interrupt and a real slow, but shine against Undead and Demons.", "tag": "dev", "src": "deep-dive" },
+        { "t": "Undead Paladins are new on the Horde; Humans and Dwarves remain the Alliance Paladins.", "tag": "dev", "src": "races" }
+      ],
+      "specs": [
+        {
+          "id": "pal-holy",
+          "name": "Holy",
+          "short": "Holy",
+          "icon": "spell_holy_holybolt",
+          "roles": ["heal"],
+          "fantasy": "A steady beacon of Light, mending allies with bright, decisive heals.",
+          "facts": {
+            "leveling": [
+              { "t": "Bonus healing now also grants a third as much bonus damage, which helps healers quest.", "tag": "dev", "src": "deep-dive" },
+              { "t": "Guides advise against leveling as a pure healer, though a spell-power Shockadin can hit surprisingly hard.", "tag": "community", "src": "wt-pal-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Blizzard calls Paladins the strongest single-target healers; group healing takes more planning.", "tag": "dev", "src": "dd-pal" },
+              { "t": "Tier lists split: one rates Holy highly, another says it lags; some players worry about mana.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Voice of Truth grants brief immunity to Silence and interrupts.", "tag": "dev", "src": "deep-dive" },
+              { "t": "Rated strong for PvP at level 30: durable, if light on burst.", "tag": "community", "src": "timesaver", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Infusion of Light rewards rotating Holy Shock, Flash of Light and Holy Light while watching mana.", "tag": "community", "src": "wt-pal" },
+            "gear": { "level": 2, "t": "Wants healing power and Intellect; Reverence adds Spirit regen while casting.", "tag": "community", "src": "wt-pal-news" }
+          },
+          "changes": [
+            { "t": "Holy Shock is now the 21-point talent, with a much shorter cooldown than before.", "tag": "dev", "src": "dd-pal" },
+            { "t": "Light's Vigil (31-point) resets Holy Shock and can spread its healing to the ally's party.", "tag": "dev", "src": "dd-pal" },
+            { "t": "Infusion of Light: Holy Shock or Flash of Light crits speed up your next Holy Light.", "tag": "dev", "src": "deep-dive" }
+          ],
+          "flags": ["hybrid", "group-heavy", "slow-level"]
+        },
+        {
+          "id": "pal-prot",
+          "name": "Protection",
+          "short": "Prot",
+          "icon": "spell_holy_devotionaura",
+          "roles": ["tank"],
+          "fantasy": "A holy bulwark wrapped in Light, shielding friends and judging the wicked.",
+          "facts": {
+            "leveling": [
+              { "t": "Blocks and Seal of Fury absorbs return mana; Shield Specialization was trimmed to 4% on Oct 15.", "tag": "dev", "src": "dn-oct15" },
+              { "t": "Protection can pull several enemies and burn them down with Consecration; mana is the main limit.", "tag": "community", "src": "wt-pal-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Judging with Seal of Fury taunts, a tool Classic Paladins never had.", "tag": "dev", "src": "dd-pal" },
+              { "t": "Beta tier lists widely name Prot Paladin the top tank at level 30.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Rated mid for PvP: with no interrupt or slow, it plays as a durable, supportive pick.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Taunting is tied to Seal and Judgement timing; Swift Judgement gives one reset if it misses.", "tag": "community", "src": "wt-pal" },
+            "gear": { "level": 2, "t": "Wants a mix of spell power and defense, a gearing niche of its own.", "tag": "community", "src": "wt-pal" }
+          },
+          "changes": [
+            { "t": "Seal of Fury adds Holy damage to each swing plus small absorbs, and its Judgement taunts.", "tag": "dev", "src": "dd-pal" },
+            { "t": "Templar's Bulwark (21-point): a big, short absorb shield based on your max health, on a long cooldown.", "tag": "dev", "src": "dd-pal" },
+            { "t": "Iron Creed turns well-timed Holy Strikes into less damage taken.", "tag": "dev", "src": "dd-pal" }
+          ],
+          "flags": ["hybrid", "group-heavy", "nerf-fear"]
+        },
+        {
+          "id": "pal-ret",
+          "name": "Retribution",
+          "short": "Ret",
+          "icon": "spell_holy_auraoflight",
+          "roles": ["melee"],
+          "fantasy": "A crusader swinging a mighty two-hander, every strike sealed with holy judgement.",
+          "facts": {
+            "leveling": [
+              { "t": "Holy Strike damage per rank was raised so each new rank feels like an upgrade.", "tag": "dev", "src": "dn-sep24" },
+              { "t": "Sources split: some call it a steady, slow-but-safe leveler; others rate it easy and strong.", "tag": "community", "src": "wt-pal-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Sacred Arbiter empowers Holy Strike and refreshes your Judgements on the target.", "tag": "dev", "src": "deep-dive" },
+              { "t": "Rankings disagree: top tier on one beta list, behind for now on another.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Repentance is now a 21-point talent (was 31), so it's easier to reach.", "tag": "dev", "src": "dd-pal" }
+            ],
+            "difficulty": { "level": 1, "t": "A simple core loop; Seal twisting is optional through a talent.", "tag": "community", "src": "method-pal" },
+            "gear": { "level": 2, "t": "Wants a strong two-hander, ideally with spell power; Intellect also feeds spell damage.", "tag": "community", "src": "method-pal" }
+          },
+          "changes": [
+            { "t": "Twist of Light (31-point) lets you twist Seals without a swing-timer addon.", "tag": "dev", "src": "dd-pal" },
+            { "t": "Vengeance was redesigned: up to 3 stacks, triggered by critical strikes.", "tag": "dev", "src": "dn-sep24" },
+            { "t": "Champion of the Light turns 10/20/30% of your Intellect into spell damage (lowered Oct 15).", "tag": "dev", "src": "dn-oct15" }
+          ],
+          "flags": ["hybrid", "nerf-fear"]
+        }
+      ]
+    },
+    {
+      "id": "hun",
+      "name": "Hunter",
+      "icon": "classicon_hunter",
+      "armor": "mail",
+      "census": { "share": 15.3, "src": "census" },
+      "facts": [
+        { "t": "Pets now draw stats from your gear, and every pet family has a unique ability. Foxes are new.", "tag": "dev", "src": "dd-hun-dru" },
+        { "t": "Ranged attacks don't work within 8 yards, and Hunters can't stun or interrupt.", "tag": "dev", "src": "dd-hun-dru" },
+        { "t": "Auto Shot needs half a second standing still before it fires, as in early WoW.", "tag": "dev", "src": "dn-oct15" }
+      ],
+      "specs": [
+        {
+          "id": "hun-bm",
+          "name": "Beast Mastery",
+          "short": "BM",
+          "icon": "ability_hunter_beasttaming",
+          "roles": ["ranged"],
+          "fantasy": "A wild companion at your side, fighting as one with the beasts you trust.",
+          "facts": {
+            "leveling": [
+              { "t": "Focused Fire raises all damage you and your pet deal while the pet is out.", "tag": "dev", "src": "dd-hun-dru" },
+              { "t": "The beta's consensus fastest, easiest leveler: your pet tanks while you shoot, so you rarely stop.", "tag": "community", "src": "ntb-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "The Wolf's Furious Howl boosts party melee Attack Power (cut by 40% on Sep 24).", "tag": "dev", "src": "dn-sep24" },
+              { "t": "Rated a top damage spec at level 30, though some guides note few raid buffs.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Hunters are seen as solid, flexible world-PvP picks; BM itself rates a bit lower.", "tag": "community", "src": "timesaver", "beta": true }
+            ],
+            "difficulty": { "level": 1, "t": "The pet does the tanking; the skills are pet control, dead-zone footwork and ammo upkeep.", "tag": "community", "src": "wt-hun" },
+            "gear": { "level": 2, "t": "Your pet now scales from your gear, so upgrades help you both.", "tag": "ours", "src": "dd-hun-dru" }
+          },
+          "changes": [
+            { "t": "Summon Hawk (16-point) calls up to 2 Hawks to attack your target for 18 seconds.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Pet families learn Bite or Claw and Dive or Dash, on top of their unique ability.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Endurance Training absorbs Thick Hide and now adds pet Health and Armor.", "tag": "dev", "src": "dd-hun-dru" }
+          ],
+          "flags": ["nerf-fear"]
+        },
+        {
+          "id": "hun-mm",
+          "name": "Marksmanship",
+          "short": "MM",
+          "icon": "ability_marksmanship",
+          "roles": ["ranged"],
+          "fantasy": "A patient sharpshooter: steady breath, distant target, one perfect shot.",
+          "facts": {
+            "leveling": [
+              { "t": "Lone Wolf gives 20% more damage with no pet out, so you can play pet-free.", "tag": "dev", "src": "dd-hun-dru" },
+              { "t": "Guides favour BM for solo leveling, but MM has handy tools like Scatter Shot.", "tag": "community", "src": "wt-hun", "beta": true }
+            ],
+            "group": [
+              { "t": "Trueshot Aura now buffs your whole raid.", "tag": "dev", "src": "dn-oct15" },
+              { "t": "Lists disagree: top-tier damage on one, mid-pack on another.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Sniper Shot reaches 45 yards and extends your next 3 shots by 10 yards.", "tag": "dev", "src": "dn-oct1" },
+              { "t": "Long-range Hunters are seen as favoured in large-scale PvP.", "tag": "community", "src": "kami-class", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Weave shots around a stand-still Auto Shot, a 4-second Sniper Shot and dead-zone footwork.", "tag": "community", "src": "wt-hun" },
+            "gear": { "level": 2, "t": "Your ranged weapon, Agility, hit and crit drive your damage.", "tag": "community", "src": "wt-hun" }
+          },
+          "changes": [
+            { "t": "Lone Wolf, a new 11-point talent, is built for pet-free Hunters.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Sniper Shot (31-point): a 4-second cast that hits harder than Aimed Shot.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Trueshot Aura moved to the 21-point slot; Careful Aim adds Attack Power from Intellect.", "tag": "dev", "src": "dd-hun-dru" }
+          ],
+          "flags": []
+        },
+        {
+          "id": "hun-sv",
+          "name": "Survival",
+          "short": "Surv",
+          "icon": "ability_hunter_swiftstrike",
+          "roles": ["ranged", "melee"],
+          "fantasy": "A cunning trapper dancing between blade and bow, always one step ahead.",
+          "facts": {
+            "leveling": [
+              { "t": "Traps now work mid-fight, and Strider Kick adds a weapon strike plus a 30% speed burst.", "tag": "dev", "src": "dn-sep24" },
+              { "t": "Leveling guides still favour BM; few suggest Survival as a first leveling spec.", "tag": "community", "src": "method-hun" }
+            ],
+            "group": [
+              { "t": "Early beta sims sometimes put Survival first, though the author urges caution with early numbers.", "tag": "community", "src": "meinmmo", "beta": true },
+              { "t": "In Classic Era, Survival was mostly a utility or PvP tree rather than raid damage.", "tag": "classic", "src": "wt-hun" }
+            ],
+            "pvp": [
+              { "t": "Entrapment now always roots when your traps trigger, with diminishing returns.", "tag": "dev", "src": "dn-oct8" },
+              { "t": "Opinions split: one list rates Survival PvP highly, another calls melee Survival weaker there.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "difficulty": { "level": 3, "t": "Weave melee and ranged attacks, time traps and manage positioning around the dead zone.", "tag": "community", "src": "wt-hun" },
+            "gear": { "level": 2, "t": "Needs good melee weapons (dual-wield works) as well as a ranged weapon.", "tag": "community", "src": "wt-hun" }
+          },
+          "changes": [
+            { "t": "Strider Kick (21-point) and Lacerating Strikes (31-point) add a bleed to Mongoose Bite.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Expose Prey: attacks on your Hunter's Mark target can enable Mongoose Bite.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Predator's Edge raises melee crit damage and off-hand damage when dual-wielding.", "tag": "dev", "src": "dd-hun-dru" }
+          ],
+          "flags": ["demanding"]
+        }
+      ]
+    },
+    {
+      "id": "rog",
+      "name": "Rogue",
+      "icon": "classicon_rogue",
+      "armor": "leather",
+      "facts": [
+        { "t": "Rogues remain the masters of Stealth and the only class with Poisons.", "tag": "dev", "src": "dd-rog-wlk" },
+        { "t": "Sap no longer breaks Stealth, and Poisons now stack with sharpening stones.", "tag": "dev", "src": "dd-rog-wlk" },
+        { "t": "Guides say Poisons unlock at 20 through a class quest, and in Forever they can crit.", "tag": "community", "src": "wt-rog-lvl" }
+      ],
+      "specs": [
+        {
+          "id": "rog-ass",
+          "name": "Assassination",
+          "short": "Assa",
+          "icon": "ability_rogue_eviscerate",
+          "roles": ["melee"],
+          "fantasy": "A patient poisoner, letting venom-dipped daggers do the quiet work.",
+          "facts": {
+            "leveling": [
+              { "t": "Improved Poisons often saves Poison charges, so you reapply less.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "Guides usually steer new Rogues to Combat for leveling rather than Assassination.", "tag": "community", "src": "wt-rog-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Blizzard: Rogues bring Stealth, control and the highest potential single-target melee damage.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "Rated a top melee damage spec, especially on single-target bosses.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Rogues are widely seen as top world-PvP picks: Stealth lets you choose your fights.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Keep Venom and Slice and Dice up, manage Poisons and pool Energy.", "tag": "community", "src": "wt-rog" },
+            "gear": { "level": 3, "t": "Mutilate needs two daggers, and guides call Rogues highly gear-dependent.", "tag": "community", "src": "wt-rog" }
+          },
+          "changes": [
+            { "t": "Mutilate (21-point) strikes with both daggers, hits poisoned targets harder and awards 2 combo points.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Venom (31-point) is a finisher: 30% more Poison damage and more Poison procs.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Cold Blood moved to the 16-point slot.", "tag": "dev", "src": "dd-rog-wlk" }
+          ],
+          "flags": ["downtime"]
+        },
+        {
+          "id": "rog-com",
+          "name": "Combat",
+          "short": "Combat",
+          "icon": "ability_backstab",
+          "roles": ["melee"],
+          "fantasy": "A fearless duelist with blade or axe, trading quick steel for quick victories.",
+          "facts": {
+            "leveling": [
+              { "t": "The usual leveling spec: Deflection and Riposte help you chain kills with little downtime.", "tag": "community", "src": "wt-rog-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Blizzard frames Combat as hard-hitting direct damage with a little cleave from Blade Flurry.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "Lists disagree: one rates Combat's damage top tier, another mid-pack.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Opinions split: one list rates Combat PvP top tier, another calls it less effective there.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "difficulty": { "level": 1, "t": "A straightforward builder-and-finisher flow, though Energy pooling still matters.", "tag": "community", "src": "method-rog" },
+            "gear": { "level": 3, "t": "Damage follows weapon quality, but Hack and Slash means any weapon type works.", "tag": "community", "src": "wt-rog" }
+          },
+          "changes": [
+            { "t": "Hack and Slash merges weapon specializations: Axes act like Swords, and Maces ignore armor.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Flawless Execution (16-point) lowers Eviscerate's Energy cost by 10.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Combat now supports Backstab builds as well as Sinister Strike builds.", "tag": "dev", "src": "dd-rog-wlk" }
+          ],
+          "flags": ["downtime"]
+        },
+        {
+          "id": "rog-sub",
+          "name": "Subtlety",
+          "short": "Sub",
+          "icon": "ability_stealth",
+          "roles": ["melee"],
+          "fantasy": "A shadow among shadows: strike first, slip away, and choose every fight.",
+          "facts": {
+            "leveling": [
+              { "t": "Sap never breaks Stealth now, and Dirty Tricks makes Sap and Blind much cheaper.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "The Ambush build bursts hard but struggles in dungeons without Cutthroat.", "tag": "community", "src": "wt-rog-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Tier lists place Subtlety behind the other Rogue specs for group PvE damage.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Improved Distract widens Distract and deepens its stealth-detection penalty.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "Rated top tier for PvP: Stealth lets you pick every engagement.", "tag": "community", "src": "timesaver", "beta": true }
+            ],
+            "difficulty": { "level": 3, "t": "Openers, positioning, keeping Ambush flowing with Cutthroat, and bleed upkeep.", "tag": "community", "src": "wt-rog" },
+            "gear": { "level": 3, "t": "Gear-dependent, and Ghostly Strike and Hemorrhage hit harder with a dagger.", "tag": "community", "src": "wt-rog" }
+          },
+          "changes": [
+            { "t": "Thousand Cuts (31-point): each Rupture tick makes your next Hemorrhage or Backstab cheaper.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Cutthroat: Backstab can let your next Ambush work outside Stealth.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Premeditation is now the 16-point talent; Quietus adds damage to targets below 35% health.", "tag": "dev", "src": "dd-rog-wlk" }
+          ],
+          "flags": ["downtime", "demanding"]
+        }
+      ]
+    },
+    {
+      "id": "pri",
+      "name": "Priest",
+      "icon": "classicon_priest",
+      "armor": "cloth",
+      "facts": [
+        { "t": "Every Priest gets Fear Ward and Devouring Plague at 20, whatever the race.", "tag": "dev", "src": "dd-pri-war" },
+        { "t": "Blizzard: still the most versatile healer, but in cloth with few escapes.", "tag": "dev", "src": "dd-pri-war" },
+        { "t": "Prayer of Healing now heals the target's party, and several Priests' Renews can share a target.", "tag": "dev", "src": "dd-pri-war" }
+      ],
+      "specs": [
+        {
+          "id": "pri-disc",
+          "name": "Discipline",
+          "short": "Disc",
+          "icon": "spell_holy_wordfortitude",
+          "roles": ["heal"],
+          "fantasy": "A quiet guardian who shields friends before the blow ever lands.",
+          "facts": {
+            "leveling": [
+              { "t": "Twin Disciplines boosts instant spells, and Wand Specialization now needs only 2 points.", "tag": "dev", "src": "dd-pri-war" },
+              { "t": "Method suggests respeccing into Penance at 30 as a sturdy solo bridge until Shadowform.", "tag": "community", "src": "method-pri" }
+            ],
+            "group": [
+              { "t": "Penance was retuned on Oct 8: lower damage and healing, and a reworked mana cost.", "tag": "dev", "src": "dn-oct8" },
+              { "t": "Sources disagree: one called Disc the best beta healer, another rates it mid after Penance tuning.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Silent Resolve now also shortens Stun, Fear and Silence effects on you.", "tag": "dev", "src": "dd-pri-war" },
+              { "t": "PvP lists rate it highly in battlegrounds, a little lower in duels.", "tag": "community", "src": "seemeta-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Pre-shielding, Weakened Soul timing and Penance's cooldown reward planning ahead.", "tag": "ours", "src": "dd-pri-war" },
+            "gear": { "level": 2, "t": "Holy Precision gives healing Priests spell hit, so you can skip hit gear.", "tag": "ours", "src": "dd-pri-war" }
+          },
+          "changes": [
+            { "t": "Penance (21-point): a 2-second channel that heals allies or damages enemies.", "tag": "dev", "src": "dd-pri-war" },
+            { "t": "Divine Aegis: critical heals leave an absorb shield on the target.", "tag": "dev", "src": "dd-pri-war" },
+            { "t": "Soul Warding (16-point) makes Power Word: Shield cheaper, with a shorter cooldown.", "tag": "dev", "src": "dd-pri-war" }
+          ],
+          "flags": ["hybrid", "group-heavy", "nerf-fear"]
+        },
+        {
+          "id": "pri-holy",
+          "name": "Holy",
+          "short": "Holy",
+          "icon": "spell_holy_guardianspirit",
+          "roles": ["heal"],
+          "fantasy": "A steady lantern at the back of the party, mending every wound.",
+          "facts": {
+            "leveling": [
+              { "t": "Dual Specialization at 40 lets you quest in one spec and heal in another.", "tag": "dev", "src": "dd-pri-war" },
+              { "t": "Kills are slow; guides suggest Holy mainly if you level through dungeons.", "tag": "community", "src": "wt-pri-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Blizzard calls Priests an asset to any party or raid for their buffs and healing.", "tag": "dev", "src": "dd-pri-war" },
+              { "t": "One list rates Holy top tier for Prayer of Mending; another has it runner-up.", "tag": "community", "src": "seemeta-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Usually rated below the other Priest specs for PvP, citing few control tools.", "tag": "community", "src": "rb-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Litany of Light refunds mana when you alternate heals, rewarding variety over one spell.", "tag": "ours", "src": "dd-pri-war" },
+            "gear": { "level": 2, "t": "Healing power drives output, hit isn't needed, and downranking heals is now penalised.", "tag": "ours", "src": "dd-pri-war" }
+          },
+          "changes": [
+            { "t": "Prayer of Mending (31-point): a heal that jumps between party or raid members, up to five times.", "tag": "dev", "src": "dd-pri-war" },
+            { "t": "Binding Heal (16-point) heals you and your target together.", "tag": "dev", "src": "dd-pri-war" },
+            { "t": "Lightwell is gone, and Twilight Focus gives pushback protection on every cast.", "tag": "dev", "src": "dd-pri-war" }
+          ],
+          "flags": ["hybrid", "group-heavy", "slow-level"]
+        },
+        {
+          "id": "pri-sha",
+          "name": "Shadow",
+          "short": "Shadow",
+          "icon": "spell_shadow_shadowwordpain",
+          "roles": ["ranged"],
+          "fantasy": "Embrace the whispering dark and wear foes down with patient torment.",
+          "facts": {
+            "leveling": [
+              { "t": "Shadowform now halves Shadow spell mana costs and allows all non-healing spells.", "tag": "dev", "src": "dd-pri-war" },
+              { "t": "Safe thanks to Power Word: Shield, and damage ramps up once Shadowform arrives at 40.", "tag": "community", "src": "seemeta-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Shadow Weaving now boosts only your own damage, not your party's.", "tag": "dev", "src": "dd-pri-war" },
+              { "t": "Lists split: one rates Shadow damage highly, another says it lags; raids untested.", "tag": "community", "src": "seemeta-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Silence no longer requires Improved Psychic Scream, so it's easier to reach.", "tag": "dev", "src": "dd-pri-war" },
+              { "t": "PvP lists rate Shadow highly, praising Silence and Shadowform.", "tag": "community", "src": "seemeta-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "DoT upkeep, plus judging Shadow Word: Death, which hurts you if the target lives.", "tag": "ours", "src": "dd-pri-war" },
+            "gear": { "level": 2, "t": "Guides say Shadow doesn't shine until about level 28 without spell power; cap hit first.", "tag": "community", "src": "wt-pri-lvl" }
+          },
+          "changes": [
+            { "t": "Shadowform rework: Shadow spells cost 50% less, with a bigger crit bonus.", "tag": "dev", "src": "dd-pri-war" },
+            { "t": "Shadow Word: Death for every Priest; Early Demise adds crit chance below 20% health.", "tag": "dev", "src": "dd-pri-war" },
+            { "t": "Devouring Contagion: Devouring Plague jumps to new enemies when its target dies.", "tag": "dev", "src": "dd-pri-war" }
+          ],
+          "flags": ["hybrid", "slow-level"]
+        }
+      ]
+    },
+    {
+      "id": "sha",
+      "name": "Shaman",
+      "icon": "classicon_shaman",
+      "armor": "mail",
+      "census": { "share": 11.2, "src": "census" },
+      "facts": [
+        { "t": "Call of the Elements drops a saved set of four totems in one cast.", "tag": "dev", "src": "dd-mag-sha" },
+        { "t": "Weapon imbues now last 60 minutes and stack with sharpening stones and wizard oils.", "tag": "dev", "src": "dd-mag-sha" },
+        { "t": "Blizzard: among the sturdiest classes and welcome in any group, but with no real crowd control.", "tag": "dev", "src": "dd-mag-sha" }
+      ],
+      "specs": [
+        {
+          "id": "sha-ele",
+          "name": "Elemental",
+          "short": "Ele",
+          "icon": "spell_nature_lightning",
+          "roles": ["ranged"],
+          "fantasy": "Call the storm down from afar, with molten fury held in reserve.",
+          "facts": {
+            "leveling": [
+              { "t": "Key talents moved earlier because Elemental lacked progression moments while leveling.", "tag": "dev", "src": "dn-sep24" },
+              { "t": "Viable, but guides flag mana starvation and streaky procs; Enhancement is the easier leveler.", "tag": "community", "src": "wt-sha-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Buff totems are trained by every Shaman and now reach the whole raid.", "tag": "dev", "src": "dn-oct15" },
+              { "t": "Seen as more viable in groups than in Classic; beta lists rate it highly.", "tag": "community", "src": "seemeta-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Earthbound (16-point): Earthbind Totem instantly roots nearby enemies for 5 seconds.", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "Rated the strongest Shaman PvP spec on one list, for roots and burst.", "tag": "community", "src": "rb-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Budget your mana and place totems well, a skill Blizzard says marks experienced Shaman.", "tag": "ours", "src": "dd-mag-sha" },
+            "gear": { "level": 3, "t": "Guides say Elemental needs steady upgrades, since spell power now comes mainly from gear.", "tag": "community", "src": "wt-sha" }
+          },
+          "changes": [
+            { "t": "Lava Burst (21-point): a Fire nuke that hits harder on Flame Shocked targets.", "tag": "dev", "src": "dn-oct15" },
+            { "t": "Lightning Overload: your bolts may fire a free half-damage copy with no threat.", "tag": "dev", "src": "dd-mag-sha" },
+            { "t": "Elemental Mastery returned on Oct 15 as the 31-point talent, with faster casts.", "tag": "dev", "src": "dn-oct15" }
+          ],
+          "flags": ["hybrid", "downtime"]
+        },
+        {
+          "id": "sha-enh",
+          "name": "Enhancement",
+          "short": "Enh",
+          "icon": "spell_nature_lightningshield",
+          "roles": ["melee"],
+          "fantasy": "A spirit-blessed fighter whose weapon crackles with wind and lightning.",
+          "facts": {
+            "leveling": [
+              { "t": "Improved Ghost Wolf works indoors, and its second rank makes Ghost Wolf instant.", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "Broad agreement it's the best Shaman leveler: solid melee, off-heals and Earth Shock.", "tag": "community", "src": "method-sha", "beta": true }
+            ],
+            "group": [
+              { "t": "Blizzard calls Enhancement damage competitive, and it can tank small groups in a pinch.", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "Rated strong for dungeon damage at level 30.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "No Bloodlust: Rage of the Farseer is a personal attack-speed cooldown instead.", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "Rated mid for PvP: strong bursts, but no gap-closer or slow of its own.", "tag": "community", "src": "seemeta-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Weave Shocks and instant Lightning Bolts between swings; no totem twisting needed.", "tag": "ours", "src": "dd-mag-sha" },
+            "gear": { "level": 2, "t": "Merged hit and crit, plus Intellect-to-Attack Power talents, make hybrid gear usable.", "tag": "ours", "src": "dd-mag-sha" }
+          },
+          "changes": [
+            { "t": "Stormstrike (16-point) empowers your next Lightning Bolt, Chain Lightning or Earth Shock.", "tag": "dev", "src": "dd-mag-sha" },
+            { "t": "Maelstrom Weapon: melee hits build charges until Lightning Bolt becomes instant.", "tag": "dev", "src": "dd-mag-sha" },
+            { "t": "Windfury Totem is now a raid-wide buff rather than a weapon enchant.", "tag": "dev", "src": "dn-oct15" }
+          ],
+          "flags": ["hybrid"]
+        },
+        {
+          "id": "sha-res",
+          "name": "Restoration",
+          "short": "Resto",
+          "icon": "spell_nature_magicimmunity",
+          "roles": ["heal"],
+          "fantasy": "Guide the tides, letting healing flow gently from friend to friend.",
+          "facts": {
+            "leveling": [
+              { "t": "Water Shield returns mana when you're hit or land a spell crit.", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "Slow solo; guides suggest another spec until Dual Specialization at 40, unless you group.", "tag": "community", "src": "wt-sha-lvl" }
+            ],
+            "group": [
+              { "t": "Blizzard: Shaman use totems to buff, heal and solve problems for any group.", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "Widely rated a top-tier healer across beta lists; raids untested.", "tag": "community", "src": "seemeta-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Rated well in battlegrounds for Nature's Swiftness and Riptide, lower in duels.", "tag": "community", "src": "seemeta-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Reactive healing with few instant heals, so positioning matters.", "tag": "community", "src": "wt-sha" },
+            "gear": { "level": 2, "t": "Guides list healing power first, then Intellect, MP5 and Spirit.", "tag": "community", "src": "wt-sha" }
+          },
+          "changes": [
+            { "t": "Riptide (31-point): an instant heal plus HoT; your Chain Heal does 25% more on that target.", "tag": "dev", "src": "dd-mag-sha" },
+            { "t": "Water Shield (11-point) is a mana-returning shield.", "tag": "dev", "src": "dd-mag-sha" },
+            { "t": "Mana Tide Totem is now the 16-point talent.", "tag": "dev", "src": "dd-mag-sha" }
+          ],
+          "flags": ["hybrid", "group-heavy", "slow-level"]
+        }
+      ]
+    },
+    {
+      "id": "mag",
+      "name": "Mage",
+      "icon": "classicon_mage",
+      "armor": "cloth",
+      "facts": [
+        { "t": "Every Mage learns Frostfire Bolt at 40, opening hybrid Fire and Frost builds.", "tag": "dev", "src": "dd-mag-sha" },
+        { "t": "Comprehension, a new Mage-only skill, deciphers scrolls dropped by creatures.", "tag": "dev", "src": "dd-mag-sha" },
+        { "t": "Big-pack AoE farming was deliberately weakened to curb gold farmers.", "tag": "dev", "src": "dd-mag-sha" }
+      ],
+      "specs": [
+        {
+          "id": "mag-arc",
+          "name": "Arcane",
+          "short": "Arcane",
+          "icon": "spell_holy_magicalsentry",
+          "roles": ["ranged"],
+          "fantasy": "A scholar of pure magic, each spell setting up a stronger next one.",
+          "facts": {
+            "leveling": [
+              { "t": "Sources differ: Method says Arcane may out-damage Frost solo; Warcraft Tavern stresses mana pressure.", "tag": "community", "src": "method-mag", "beta": true }
+            ],
+            "group": [
+              { "t": "Blizzard: Mages are always useful to a group for buffs, food and water, and control.", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "Lists disagree: mana holds it back on one, top spec on another; raids untested.", "tag": "community", "src": "seemeta-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Rated highly for PvP, with Counterspell's silence and Presence of Mind.", "tag": "community", "src": "rb-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 3, "t": "Guides call its new mana-management playstyle quite daunting.", "tag": "community", "src": "wt-mag" },
+            "gear": { "level": 3, "t": "Guides say Arcane needs good gear to come online.", "tag": "community", "src": "wt-mag-lvl" }
+          },
+          "changes": [
+            { "t": "Arcane Blast (11-point), redesigned Oct 15: each stack grants spell damage, up to 4 stacks.", "tag": "dev", "src": "dn-oct15" },
+            { "t": "Arcane Wrath (16-point): a Fireball-sized nuke boosted by 5% of your max mana.", "tag": "dev", "src": "dn-oct15" },
+            { "t": "Missile Barrage procs fast, free Arcane Missiles, and is now an early 2-point talent.", "tag": "dev", "src": "dn-oct15" }
+          ],
+          "flags": ["downtime", "demanding"]
+        },
+        {
+          "id": "mag-fire",
+          "name": "Fire",
+          "short": "Fire",
+          "icon": "spell_fire_firebolt02",
+          "roles": ["ranged"],
+          "fantasy": "Build the heat patiently, then let it erupt in one brilliant blast.",
+          "facts": {
+            "leveling": [
+              { "t": "Lowest mana use of the three, but low early crit makes it streaky in the open world.", "tag": "community", "src": "wt-mag-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Ignite is now a separate debuff per Mage, so Fire Mages no longer share one.", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "Sources disagree: one rates Fire top for burst, another puts every Mage spec mid for dungeons.", "tag": "community", "src": "seemeta-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Rated strong for PvP: the most burst, but no defensive talent.", "tag": "community", "src": "seemeta-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Guides say Fire moves away from one-button play toward reacting to crits.", "tag": "community", "src": "wt-mag" },
+            "gear": { "level": 3, "t": "Guides say Fire relies heavily on a high critical strike chance.", "tag": "community", "src": "wt-mag-lvl" }
+          },
+          "changes": [
+            { "t": "Heating Up: Fire crits shorten your next Pyroblast; three stacks make it a 1.5-second cast.", "tag": "dev", "src": "dd-mag-sha" },
+            { "t": "Fire Power now adds 1–3% Fire damage per Fire effect of yours on the target, up to 12%.", "tag": "dev", "src": "dn-oct15" },
+            { "t": "Ignite no longer loses damage when crits land close together.", "tag": "dev", "src": "dd-mag-sha" }
+          ],
+          "flags": []
+        },
+        {
+          "id": "mag-frost",
+          "name": "Frost",
+          "short": "Frost",
+          "icon": "spell_frost_frostbolt02",
+          "roles": ["ranged"],
+          "fantasy": "Calm and controlled, freezing the battlefield so trouble never reaches you.",
+          "facts": {
+            "leveling": [
+              { "t": "Frost Blast, a new level-24 slow, replaces the old rank-1 Frostbolt trick.", "tag": "dev", "src": "dn-oct15" },
+              { "t": "Most guides name Frost the best Mage leveler: survivability, slows, freezes and kiting.", "tag": "community", "src": "method-mag", "beta": true }
+            ],
+            "group": [
+              { "t": "Winter's Chill now benefits only you, feeding your own Cone of Cold.", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "One list rates Frost low for raid damage while praising its control; raids untested.", "tag": "community", "src": "seemeta-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Cold Snap is now the 21-point talent with a 10-minute cooldown (was 5).", "tag": "dev", "src": "dd-mag-sha" },
+              { "t": "Rated top tier for PvP by one list, thanks to Ice Block and Ice Barrier.", "tag": "community", "src": "seemeta-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Method finds Frost easier solo than Arcane; NoobToBoss says it needs more attention than Hunter.", "tag": "community", "src": "method-mag" },
+            "gear": { "level": 2, "t": "Control carries leveling, while Ice Lance burst leans on procs and gear. No guide rates it.", "tag": "ours", "src": "wt-mag-lvl" }
+          },
+          "changes": [
+            { "t": "Ice Lance (11-point) hits much harder on Frozen targets; its bonus was trimmed to +200% on Oct 15.", "tag": "dev", "src": "dn-oct15" },
+            { "t": "Fingers of Frost lets your spells treat targets as Frozen.", "tag": "dev", "src": "dd-mag-sha" },
+            { "t": "Ice Block is now the 16-point talent.", "tag": "dev", "src": "dd-mag-sha" }
+          ],
+          "flags": ["nerf-fear"]
+        }
+      ]
+    },
+    {
+      "id": "wlk",
+      "name": "Warlock",
+      "icon": "classicon_warlock",
+      "armor": "cloth",
+      "facts": [
+        { "t": "Demons now scale from your own stats.", "tag": "dev", "src": "dd-rog-wlk" },
+        { "t": "Curses of Agony and Doom are now Banes, so a Bane and a Curse can both run.", "tag": "dev", "src": "dd-rog-wlk" },
+        { "t": "Healthstones, Soulstones and Ritual of Summoning remain your gifts to the group.", "tag": "classic", "src": "wiki-warlock" }
+      ],
+      "specs": [
+        {
+          "id": "wlk-aff",
+          "name": "Affliction",
+          "short": "Affli",
+          "icon": "spell_shadow_deathcoil",
+          "roles": ["ranged"],
+          "fantasy": "Plant slow curses, then calmly drain your enemy's strength as it fades.",
+          "facts": {
+            "leveling": [
+              { "t": "Improved Drains and Soul Siphon boost drains more for each Affliction effect on the target.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "Widely called the best solo caster leveler: instant DoTs on the move, drain-tanking, little drinking.", "tag": "community", "src": "ntb-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Shadow Mastery rose to 10% on Oct 15, a boost to Affliction damage.", "tag": "dev", "src": "dn-oct15" },
+              { "t": "Rated top tier for sustained damage on long fights; raids untested.", "tag": "community", "src": "seemeta-pve", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Curse of Exhaustion is now the 16-point talent, with a 30% slow.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "Rated the strongest Warlock PvP spec on one list: slows and drains, little burst.", "tag": "community", "src": "rb-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Juggle several DoTs, Life Tap and drains; forgiving, because it works on the move.", "tag": "community", "src": "wt-wlk-lvl" },
+            "gear": { "level": 2, "t": "Guides say new talents make critical strike a real Affliction stat.", "tag": "community", "src": "wt-wlk" }
+          },
+          "changes": [
+            { "t": "Wrack (31-point): a channel that also raises your other Shadow DoT damage on the target by 10%.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Pandemic: up to +100% crit damage on Corruption, Banes, drains and Siphon Life.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "DoTs and drains can now crit.", "tag": "dev", "src": "dd-rog-wlk" }
+          ],
+          "flags": []
+        },
+        {
+          "id": "wlk-demo",
+          "name": "Demonology",
+          "short": "Demo",
+          "icon": "spell_shadow_metamorphosis",
+          "roles": ["ranged"],
+          "fantasy": "Bind a demon companion and fight side by side, master and ally.",
+          "facts": {
+            "leveling": [
+              { "t": "Improved Health Funnel, Fel Vitality and Demonic Energies help keep your demon alive.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "The safest Warlock path once Demonic Brand arrives: your demon holds a few enemies, though it starts slower.", "tag": "community", "src": "wt-wlk-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Demons scaling from your stats keeps them relevant later in the game.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "Sources disagree: one calls Demonology the best dungeon Warlock spec, another rates it mid.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Rated mid for PvP; guides favour the Felhunter for Spell Lock and Devour Magic.", "tag": "community", "src": "rb-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "Blizzard says pairing Demonic Sacrifice with Master Demonologist makes a big difference.", "tag": "ours", "src": "dd-rog-wlk" },
+            "gear": { "level": 2, "t": "Your stats now power your demon too, so upgrades count twice.", "tag": "ours", "src": "dd-rog-wlk" }
+          },
+          "changes": [
+            { "t": "Demonic Pact (31-point): keep your Demonic Sacrifice buff while summoning another demon.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Demonic Sacrifice is now an 11-point talent lasting 2 hours, with new effects per demon.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Demonic Brand and Demonic Knowledge tie your spells to your demon's damage.", "tag": "dev", "src": "dd-rog-wlk" }
+          ],
+          "flags": []
+        },
+        {
+          "id": "wlk-dest",
+          "name": "Destruction",
+          "short": "Destro",
+          "icon": "spell_shadow_rainoffire",
+          "roles": ["ranged"],
+          "fantasy": "Pure fire and shadow, shaped with one intent: end the fight quickly.",
+          "facts": {
+            "leveling": [
+              { "t": "Guides call it the hardest Warlock to level solo: hard casts, standing still, more mana trouble.", "tag": "community", "src": "wt-wlk-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Bane of Havoc (21-point): 15% of your damage to other enemies also hits the marked target.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "Guides call it the best Warlock spec for dungeons.", "tag": "community", "src": "wt-wlk-lvl", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Molten Skin, a new talent, cuts damage taken by up to 10%.", "tag": "dev", "src": "dd-rog-wlk" },
+              { "t": "Sources disagree: rated high on one list, mid on another, as long casts are easy to interrupt.", "tag": "community", "src": "rb-pvp", "beta": true }
+            ],
+            "difficulty": { "level": 3, "t": "Guides call the rotation demanding and the hardest Warlock spec to level.", "tag": "community", "src": "seemeta-pve" },
+            "gear": { "level": 2, "t": "Hard-cast burst leans on spell power and crit. No guide rates this yet.", "tag": "ours", "src": "wt-wlk" }
+          },
+          "changes": [
+            { "t": "Incinerate (31-point): a Fire nuke with 25% extra damage on Immolated targets.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Conflagrate is now the 16-point talent; Shadow and Flame links it with Shadowburn.", "tag": "dev", "src": "dd-rog-wlk" },
+            { "t": "Hellfire can now crit.", "tag": "dev", "src": "dn-oct1" }
+          ],
+          "flags": ["downtime", "slow-level", "group-heavy", "demanding"]
+        }
+      ]
+    },
+    {
+      "id": "dru",
+      "name": "Druid",
+      "icon": "classicon_druid",
+      "armor": "leather",
+      "census": { "share": 11.4, "src": "census" },
+      "facts": [
+        { "t": "Druids can fill any role, but lack snares, silences and interrupts.", "tag": "dev", "src": "dd-hun-dru" },
+        { "t": "In form you can now use potions, racials, and most doors and objects without shifting out.", "tag": "dev", "src": "dd-hun-dru" },
+        { "t": "Tauren, Night Elves and Skyborne on both factions can be Druids; Skyborne get their own forms.", "tag": "dev", "src": "skyborne" }
+      ],
+      "specs": [
+        {
+          "id": "dru-bal",
+          "name": "Balance",
+          "short": "Balance",
+          "icon": "spell_nature_starfall",
+          "roles": ["ranged"],
+          "fantasy": "A moonlit caster calling starfire and nature's fury down from the sky.",
+          "facts": {
+            "leveling": [
+              { "t": "Wrath was redesigned to be cheaper and weaker, then its base damage was raised about 50%.", "tag": "dev", "src": "dn-sep24" },
+              { "t": "Guides call Balance viable but slower than Feral solo; some found the early levels hard.", "tag": "community", "src": "wt-dru-lvl", "beta": true }
+            ],
+            "group": [
+              { "t": "Moonkin Aura now raises spell crit only, and reaches the whole raid.", "tag": "dev", "src": "dn-oct15" },
+              { "t": "Beta lists place Balance lowest among Druid damage options for PvE.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Barkskin and Nature's Grasp now work while shapeshifted.", "tag": "dev", "src": "dd-hun-dru" },
+              { "t": "Rated strong for PvP and called potentially very strong in battlegrounds.", "tag": "community", "src": "kami-class", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "An Eclipse rhythm of Wrath into faster Starfires, plus DoT upkeep and mana planning.", "tag": "community", "src": "wt-dru" },
+            "gear": { "level": 2, "t": "Wants spell power and hit, and caster weapons now carry spell damage too.", "tag": "ours", "src": "deep-dive" }
+          },
+          "changes": [
+            { "t": "Insect Swarm (16-point) returns: Nature damage over time that lowers the target's hit chance.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Eclipse: casting Wrath speeds up your next 2 Starfires, stacking up to 4 charges.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Hurricane has no cooldown, and Moonkin Form can cast all non-healing spells.", "tag": "dev", "src": "dd-hun-dru" }
+          ],
+          "flags": ["hybrid", "slow-level"]
+        },
+        {
+          "id": "dru-fer",
+          "name": "Feral",
+          "short": "Feral",
+          "icon": "ability_racial_bearform",
+          "roles": ["tank", "melee"],
+          "fantasy": "A shapeshifter of fang and claw, prowling as cat or standing firm as bear.",
+          "facts": {
+            "leveling": [
+              { "t": "Frenzied Regeneration can now heal up to 100% of your max health, given enough Rage.", "tag": "dev", "src": "dd-hun-dru" },
+              { "t": "Guides call Feral the fastest, smoothest Druid leveling route, though the early levels are slow.", "tag": "community", "src": "method-dru", "beta": true }
+            ],
+            "group": [
+              { "t": "Leader of the Pack now raises melee and ranged crit only, and reaches the whole raid.", "tag": "dev", "src": "dn-oct15" },
+              { "t": "Lists rate Bear tanking and Cat damage mid-tier; Dire Bear and Berserk were out of reach at 30.", "tag": "community", "src": "ntb-tier", "beta": true }
+            ],
+            "pvp": [
+              { "t": "Forms are immune to Disarm, and racials like War Stomp and Shadowmeld work in form.", "tag": "dev", "src": "dn-oct1" },
+              { "t": "Rated top tier for PvP thanks to mobility and toughness.", "tag": "community", "src": "rb-pve", "beta": true }
+            ],
+            "difficulty": { "level": 3, "t": "Form switching, Energy and Rage, bleeds, positional Shred, and two roles in one tree.", "tag": "community", "src": "wt-dru" },
+            "gear": { "level": 2, "t": "Form damage now follows your weapon's DPS, and weapon enchants work in form.", "tag": "ours", "src": "dd-hun-dru" }
+          },
+          "changes": [
+            { "t": "Shifting Power (16-point) turns mana into 40 Energy instantly, a friendlier powershift.", "tag": "dev", "src": "dn-oct1" },
+            { "t": "Primal Bite (the renamed Mangle) and baseline Lacerate at 42 give Bears high threat.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Berserk (31-point): Fear immunity, Primal Bite hits 3 targets, and Cat combo moves always crit.", "tag": "dev", "src": "dd-hun-dru" }
+          ],
+          "flags": ["hybrid", "demanding"]
+        },
+        {
+          "id": "dru-res",
+          "name": "Restoration",
+          "short": "Resto",
+          "icon": "spell_nature_healingtouch",
+          "roles": ["heal"],
+          "fantasy": "A gentle tender of life, weaving heals that bloom and grow over time.",
+          "facts": {
+            "leveling": [
+              { "t": "Bonus healing now also grants a third as much bonus damage, easing questing for healers.", "tag": "dev", "src": "deep-dive" },
+              { "t": "Guides advise against leveling as Restoration, since kills are slow; Feral is the usual pick.", "tag": "community", "src": "wt-dru-lvl" }
+            ],
+            "group": [
+              { "t": "HoTs can now crit, and Rejuvenation from several Druids stacks on one target.", "tag": "dev", "src": "dn-oct15" },
+              { "t": "Called a beta winner: a competitive, scaling HoT healer with Wild Growth.", "tag": "community", "src": "meinmmo", "beta": true }
+            ],
+            "pvp": [
+              { "t": "A mobile healer: Nature's Grasp is baseline and works indoors and in form.", "tag": "dev", "src": "dd-hun-dru" },
+              { "t": "Rated mid for PvP, but expected to gain value in objective battlegrounds.", "tag": "community", "src": "timesaver", "beta": true }
+            ],
+            "difficulty": { "level": 2, "t": "HoTs go out ahead of damage, and Swiftmend and Wild Growth reward timing.", "tag": "community", "src": "wt-dru" },
+            "gear": { "level": 2, "t": "Wants healing power, Intellect and Spirit; talents help with mana.", "tag": "community", "src": "wt-dru" }
+          },
+          "changes": [
+            { "t": "Wild Growth (31-point): a front-loaded HoT on your whole party, on a 6-second cooldown.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Swiftmend is now the 16-point talent and no longer eats your Rejuvenation or Regrowth.", "tag": "dev", "src": "dd-hun-dru" },
+            { "t": "Revive, an out-of-combat resurrection, arrives at level 12, and Regrowth costs much less mana.", "tag": "dev", "src": "dd-hun-dru" }
+          ],
+          "flags": ["hybrid", "group-heavy", "slow-level"]
+        }
+      ]
+    }
+  ],
+  "professions": {
+    "list": [
+      {
+        "id": "alc",
+        "name": "Alchemy",
+        "icon": "trade_alchemy",
+        "kind": "crafting",
+        "facts": [
+          { "t": "Alchemists can set up an Alchemy Lab at your campsite.", "tag": "dev", "src": "deep-dive" },
+          { "t": "Guides say Healing Potions moved to First Aid; Alchemy keeps elixirs and flasks and gains dyes.", "tag": "community", "src": "wt-alc" }
+        ]
+      },
+      {
+        "id": "bs",
+        "name": "Blacksmithing",
+        "icon": "trade_blacksmithing",
+        "kind": "crafting",
+        "facts": [
+          { "t": "Blacksmiths add a Sharpening Wheel to campsites, which Blizzard says boosts Attack Power.", "tag": "dev", "src": "deep-dive" },
+          { "t": "Blacksmithing plans can now drop at random in dungeons.", "tag": "dev", "src": "dn-oct1" }
+        ]
+      },
+      {
+        "id": "ench",
+        "name": "Enchanting",
+        "icon": "trade_engraving",
+        "kind": "crafting",
+        "facts": [
+          { "t": "Weapon enchants like Revelation and Recovery appear in the beta notes.", "tag": "dev", "src": "dn-oct8" },
+          { "t": "Enchanter-made wands now sell to vendors for small fixed prices, from 5 copper to 25 silver.", "tag": "dev", "src": "dn-oct8" }
+        ]
+      },
+      {
+        "id": "eng",
+        "name": "Engineering",
+        "icon": "trade_engineering",
+        "kind": "crafting",
+        "facts": [
+          { "t": "New SAF-T and EZ-Thro explosives arrive; some even work while a Druid is shapeshifted.", "tag": "dev", "src": "dd-hun-dru" },
+          { "t": "Guides say Goblin and Gnomish specializations remain, unlocked at 200 skill by quest.", "tag": "community", "src": "wt-eng" }
+        ]
+      },
+      {
+        "id": "herb",
+        "name": "Herbalism",
+        "icon": "trade_herbalism",
+        "kind": "gathering",
+        "facts": [
+          { "t": "Herbalists add an Incense Candle to campsites for an Intellect buff.", "tag": "dev", "src": "deep-dive" },
+          { "t": "Rare Scarce herbs like Frilled Lichen go into dyes and some Enchanting recipes.", "tag": "community", "src": "wt-herb" }
+        ]
+      },
+      {
+        "id": "lw",
+        "name": "Leatherworking",
+        "icon": "trade_leatherworking",
+        "kind": "crafting",
+        "facts": [
+          { "t": "Leatherworkers place a Tanning Rack at camp, needed for advanced recipes.", "tag": "dev", "src": "deep-dive" },
+          { "t": "Guides say the Tanning Rack also grants rested XP if you have none.", "tag": "community", "src": "wt-camp" }
+        ]
+      },
+      {
+        "id": "min",
+        "name": "Mining",
+        "icon": "trade_mining",
+        "kind": "gathering",
+        "facts": [
+          { "t": "The Oct 1 notes reduced the number of Poor Copper Veins in starter areas.", "tag": "dev", "src": "dn-oct1" },
+          { "t": "Guides list a Lodestone camp object for Attack Power, and say ore respawns faster in busy areas.", "tag": "community", "src": "wt-min" }
+        ]
+      },
+      {
+        "id": "skin",
+        "name": "Skinning",
+        "icon": "inv_misc_pelt_wolf_01",
+        "kind": "gathering",
+        "facts": [
+          { "t": "Each creature can again be skinned only once.", "tag": "dev", "src": "dn-oct1" },
+          { "t": "Guides list rare Pristine Leather, Hide and Scale as Scarce skinning finds.", "tag": "community", "src": "wt-skin" }
+        ]
+      },
+      {
+        "id": "tail",
+        "name": "Tailoring",
+        "icon": "trade_tailoring",
+        "kind": "crafting",
+        "facts": [
+          { "t": "Tailors add a Faction Banner to campsites for a Spirit buff.", "tag": "dev", "src": "deep-dive" },
+          { "t": "Guides say Tailors sew reagent bags for the new reagent-bag slot.", "tag": "community", "src": "wt-tail" }
+        ]
+      }
+    ],
+    "pairs": [
+      {
+        "id": "skin-lw",
+        "a": "skin",
+        "b": "lw",
+        "goals": ["gear", "gold"],
+        "fit": {
+          "armor": ["leather", "mail"]
+        },
+        "why": "Skin your own hides and turn them into leather or mail you can wear.",
+        "facts": [
+          { "t": "Guides pair these for Rogues, Druids, Hunters and Shamans: you supply all your own leather.", "tag": "community", "src": "wt-prof" },
+          { "t": "Leatherworking patterns can now drop at random in dungeons.", "tag": "dev", "src": "dn-oct1" }
+        ],
+        "flags": []
+      },
+      {
+        "id": "min-bs",
+        "a": "min",
+        "b": "bs",
+        "goals": ["gear", "gold"],
+        "fit": {
+          "armor": ["plate"]
+        },
+        "why": "Mine your own ore, smelt the bars, and forge plate and weapons.",
+        "facts": [
+          { "t": "Guides call it the natural pair for Warriors and Paladins: you supply every bar yourself.", "tag": "community", "src": "wt-prof" },
+          { "t": "Each profession adds its own campsite buff, so your pair helps your whole group.", "tag": "dev", "src": "deep-dive" }
+        ],
+        "flags": []
+      },
+      {
+        "id": "min-eng",
+        "a": "min",
+        "b": "eng",
+        "goals": ["gear"],
+        "fit": "all",
+        "why": "Turn your own ore into bombs, goggles and gadgets; a PvP favourite.",
+        "facts": [
+          { "t": "Guides call it a PvP and utility favourite that suits any class.", "tag": "community", "src": "wt-prof" },
+          { "t": "Gnomes have a racial that makes engineering devices more reliable.", "tag": "dev", "src": "races" }
+        ],
+        "flags": []
+      },
+      {
+        "id": "herb-alc",
+        "a": "herb",
+        "b": "alc",
+        "goals": ["gear", "gold"],
+        "fit": "all",
+        "why": "Pick your own herbs and brew elixirs, flasks and dyes.",
+        "facts": [
+          { "t": "Guides call it a steady gold-maker that suits every class.", "tag": "community", "src": "wt-prof" },
+          { "t": "Each profession adds its own campsite buff, so your pair helps your whole group.", "tag": "dev", "src": "deep-dive" }
+        ],
+        "flags": []
+      },
+      {
+        "id": "tail-ench",
+        "a": "tail",
+        "b": "ench",
+        "goals": ["gear"],
+        "fit": {
+          "armor": ["cloth"]
+        },
+        "why": "Sew your own robes, then disenchant spare tailored gear to fuel your enchants.",
+        "facts": [
+          { "t": "Cloth drops from the humanoids you fight anyway, so this pair needs no gathering skill.", "tag": "community", "src": "wt-prof" },
+          { "t": "The Oct 15 notes lowered the vendor price of many profession-made items.", "tag": "dev", "src": "dn-oct15" }
+        ],
+        "flags": ["gold-hungry"]
+      },
+      {
+        "id": "skin-min",
+        "a": "skin",
+        "b": "min",
+        "goals": ["gold"],
+        "fit": "all",
+        "why": "Two gatherers: sell leather and ore as you quest, plus rare Scarce finds.",
+        "facts": [
+          { "t": "Two gathering skills and no crafting, so everything you collect can go to market.", "tag": "classic", "src": "wt-prof" },
+          { "t": "The Bountiful Harvest Legacy perk finds extra Scarce materials when you gather.", "tag": "dev", "src": "legacy" }
+        ],
+        "flags": []
+      },
+      {
+        "id": "skin-herb",
+        "a": "skin",
+        "b": "herb",
+        "goals": ["gold"],
+        "fit": "all",
+        "why": "Two gatherers: collect leather and herbs on the same route, with no crafting costs.",
+        "facts": [
+          { "t": "Pure gathering means no recipes or materials to buy; every find can be sold.", "tag": "classic", "src": "wt-prof" },
+          { "t": "The Bountiful Harvest Legacy perk finds extra Scarce materials when you gather.", "tag": "dev", "src": "legacy" }
+        ],
+        "flags": []
+      },
+      {
+        "id": "herb-min",
+        "a": "herb",
+        "b": "min",
+        "goals": ["gold"],
+        "fit": "all",
+        "why": "The classic gold pair: stop for every herb and vein along your route.",
+        "facts": [
+          { "t": "Guides disagree on whether you can track herbs and ore at the same time.", "tag": "community", "src": "wt-herb" },
+          { "t": "The Bountiful Harvest Legacy perk finds extra Scarce materials when you gather.", "tag": "dev", "src": "legacy" }
+        ],
+        "flags": []
+      },
+      {
+        "id": "skin-tail",
+        "a": "skin",
+        "b": "tail",
+        "goals": ["gold"],
+        "fit": "all",
+        "why": "Tailoring uses cloth, not leather, so it's mostly two money-makers, not a supply chain.",
+        "facts": [
+          { "t": "Tailoring runs on cloth from humanoids, so Skinning simply adds leather to sell.", "tag": "classic", "src": "wt-tail" },
+          { "t": "Guides say Favor vendors sell Tailoring cloth sets for each spell school.", "tag": "community", "src": "wt-tail" }
+        ],
+        "flags": []
+      }
+    ],
+    "secondary": [
+      { "id": "cook", "name": "Cooking", "icon": "inv_misc_food_15", "tip": "Cooking builds the campfire your group gathers around, and crafted food can now add a small XP bonus.", "tag": "dev", "src": "deep-dive" },
+      {
+        "id": "fa",
+        "name": "First Aid",
+        "icon": "spell_holy_sealofsacrifice",
+        "tip": "Level it early: bandages cut downtime, and the Field Medicine Legacy perk shortens Recently Bandaged outside dungeons, raids and battlegrounds.",
+        "tag": "dev",
+        "src": "legacy"
+      },
+      { "id": "fish", "name": "Fishing", "icon": "trade_fishing", "tip": "A calm break between quests, and the Fish Bowl camp object gives your camp an all-stats buff.", "tag": "community", "src": "wt-fish" }
+    ]
+  },
+  "safeguards": [
+    {
+      "id": "downtime",
+      "flag": "downtime",
+      "title": "Bring snacks",
+      "t": "Carry food and drink, level First Aid early, and sit by a campfire between fights for its one-hour buffs.",
+      "facts": [
+        { "t": "Campfires offer rest, vendors, repairs and one-hour buffs; sit by the fire briefly to collect them.", "tag": "dev", "src": "deep-dive" },
+        { "t": "Legacy perks help: Field Medicine shortens Recently Bandaged, and Gourmand makes food buffs last longer.", "tag": "dev", "src": "legacy" }
+      ]
+    },
+    {
+      "id": "group-heavy",
+      "flag": "group-heavy",
+      "title": "Join a guild early",
+      "t": "A guild means steady groups and friendly faces. Forever also has a Group Finder where you can post or browse dungeon groups.",
+      "facts": [
+        { "t": "The Group Finder lists dungeons and can show every level range (Oct 15 notes).", "tag": "dev", "src": "dn-oct15" },
+        { "t": "Group listings carry a playstyle tag, including Learning and Relaxed.", "tag": "community", "src": "wt-lfg-tag" }
+      ]
+    },
+    {
+      "id": "nerf-fear",
+      "flag": "nerf-fear",
+      "title": "It's called Forever",
+      "t": "Balance moves both ways over the years. Pick what you love, not this week's numbers; the beta only went to level 30.",
+      "facts": [
+        { "t": "The beta cap rose from 20 to 30 on Oct 1; nothing above level 30 was tested.", "tag": "dev", "src": "dn-oct1" },
+        { "t": "Level-60 raids open Dec 9, so the real endgame picture comes later.", "tag": "dev", "src": "raids" }
+      ]
+    },
+    {
+      "id": "slow-level",
+      "flag": "slow-level",
+      "title": "Take your time",
+      "t": "There's no race to 60. The Well Rested Legacy perk and dungeon runs both help, and every level is part of the story.",
+      "facts": [
+        { "t": "The Well Rested Legacy perk raises your rested XP cap and fills it faster.", "tag": "dev", "src": "legacy" },
+        { "t": "Aggrend: after the fixes, dungeon leveling should be very close to optimal questing speed.", "tag": "dev", "src": "aggrend-xp" }
+      ]
+    },
+    {
+      "id": "hybrid",
+      "flag": "hybrid",
+      "title": "You're not locked in",
+      "t": "Your class can fill more than one role. Dual Specialization arrives at level 40, so you can quest in one spec and group in another.",
+      "facts": [
+        { "t": "Dual Specialization unlocks at level 40.", "tag": "dev", "src": "dd-pri-war" }
+      ]
+    },
+    { "id": "demanding", "flag": "demanding", "title": "Try it first", "t": "This spec asks a lot of your hands. Run its rotation in the free Rotation sim before you commit.", "facts": [] },
+    {
+      "id": "gold-hungry",
+      "flag": "gold-hungry",
+      "title": "Pair it with gathering",
+      "t": "Two crafts can drain your purse. Level a gathering skill early, maybe on another character, or sell what you gather to fund them.",
+      "facts": [
+        { "t": "The Oct 15 notes lowered the vendor price of many profession-made items.", "tag": "dev", "src": "dn-oct15" }
+      ]
+    },
+    {
+      "id": "rare",
+      "flag": "rare",
+      "title": "You'll stand out",
+      "t": "{race} made up just {share} of beta characters, so yours will turn heads in town.",
+      "facts": [
+        { "t": "Beta census: Troll 7.1%, Gnome 7.3%, Tauren 7.7% and Dwarf 7.9% of characters.", "tag": "community", "src": "census", "beta": true }
+      ]
+    },
+    {
+      "id": "popular",
+      "flag": "popular",
+      "title": "Plenty of company",
+      "t": "{race} made up {share} of beta characters: more groups around, and more people chasing the same gear.",
+      "facts": [
+        { "t": "Beta census: Undead 17.4% and Human 15.7%, the two most-created races.", "tag": "community", "src": "census", "beta": true }
+      ]
+    },
+    {
+      "id": "pvp-faction",
+      "flag": "pvp-faction",
+      "title": "One side on PvP",
+      "t": "On the PvP ruleset your account plays one faction. On Normal and Roleplaying you can play both.",
+      "facts": [
+        { "t": "On the PvP ruleset, once you create a character of one faction, you can't create the other there.", "tag": "dev", "src": "rulesets" }
+      ]
+    }
+  ],
+  "legacy": {
+    "title": "Just give it a whirl",
+    "t": "Play it with immersion and see how it feels. Either way you earn Legacy Points toward your next character: every class earns a point at levels 25, 45 and 60, shared across your account. And you can always come back to this one.",
+    "facts": [
+      { "t": "Legacy Points are account-wide, shared by all your non-Hardcore characters.", "tag": "dev", "src": "legacy" },
+      { "t": "Good to know: each class earns its level points once, so a second Warrior, say, won't earn them again.", "tag": "dev", "src": "legacy" },
+      { "t": "Each character can spend up to 16 points at launch, and one character alone can earn 29.", "tag": "dev", "src": "legacy" }
+    ]
+  },
+  "prompts": {
+    "faction": [
+      "Coin flip: which side are you hoping for?",
+      "Which capital do you picture logging out in?",
+      "Whose banner would you be proud to carry into a battleground?",
+      "Do your friends already have a side? Playing together might settle it.",
+      "Which side's story do you want to be part of?"
+    ],
+    "race": [
+      "Which one do you daydream about at work?",
+      "Open the character creator and spin them around. Who made you smile?",
+      "Whose walk would you happily watch for hundreds of hours?",
+      "Which starting zone do you want to see first?",
+      "Which racial sounds the most fun to use, not just the most useful?"
+    ],
+    "class": [
+      "If it got nerfed tomorrow, would you still want it?",
+      "Imagine your hardest fight: holding the line, keeping everyone alive, or burning it down?",
+      "Which one do you daydream about at work?",
+      "Which ability are you most excited to press for the first time?",
+      "Do you picture yourself questing alone, or mostly with friends?"
+    ],
+    "prof": [
+      "Do you like stopping for every herb and vein, or would you rather keep moving?",
+      "Which item would you be proud to make for a friend?",
+      "Would you rather use what you make, or sell it and watch the gold roll in?",
+      "What would you love to set up first at your campfire?"
+    ]
+  },
+  "links": [
+    { "id": "rotation", "name": "WoW Forever Rotation", "by": "wow-forever-rotation.vercel.app", "url": "https://wow-forever-rotation.vercel.app/", "where": "class", "note": "Practice a class rotation on a target dummy." },
+    { "id": "forge", "name": "WoW Forever Character Forge", "by": "s3bt3r.github.io", "url": "https://s3bt3r.github.io/character-forge/", "where": "result", "note": "Another fan tool for shaping your character." },
+    { "id": "quiz", "name": "WoW Forever class quiz", "by": "Classic WoW Forever", "url": "https://classicwowforever.com/choose", "where": "result", "note": "A quiz that suggests a class, spec and race." },
+    { "id": "talents", "name": "Wowhead Forever Talent Calculator", "by": "Wowhead", "url": "https://www.wowhead.com/forever/talent-calc/{class}", "where": "result", "note": "Plan your talents for this class." },
+    { "id": "dressing", "name": "Wowhead Forever Dressing Room", "by": "Wowhead", "url": "https://www.wowhead.com/forever/dressing-room", "where": "result", "note": "Try on gear in 3D; pick your race there." }
+  ]
+}
