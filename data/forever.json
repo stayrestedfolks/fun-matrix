@@ -220,7 +220,7 @@
       "capital": "Orgrimmar",
       "classes": ["war", "hun", "rog", "pri", "sha", "mag", "wlk"],
       "racials": [
-        { "name": "Berserking", "kind": "active", "t": "+10% casting and attack speed for 10 sec.", "tag": "dev", "src": "races", "icon": "racial_troll_berserk" },
+        { "name": "Berserking", "kind": "active", "t": "+10% casting and attack speed for 15 sec (was 10).", "tag": "dev", "src": "dn-oct26", "icon": "racial_troll_berserk" },
         { "name": "Rapid Regeneration", "kind": "active", "t": "Regenerate 50% of your maximum Health over time.", "tag": "dev", "src": "races", "icon": "ability_racial_regeneratin" },
         { "name": "Beast Slaying", "kind": "passive", "t": "+5% damage against Beasts.", "tag": "dev", "src": "races", "icon": "inv_misc_pelt_bear_ruin_02" },
         { "name": "Regeneration", "kind": "passive", "t": "20% of your health regeneration continues during combat (was 10%).", "tag": "dev", "src": "dn-oct15", "icon": "spell_nature_regenerate" }
