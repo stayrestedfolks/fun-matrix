@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "asOf": "2026-10-26",
+  "asOf": "2026-10-27",
   "game": "WoW Forever",
   "tags": { "dev": "Confirmed (dev notes)", "classic": "From Classic", "community": "Community view", "ours": "Our read" },
   "sources": {
@@ -41,6 +41,13 @@
       "site": "us.forums.blizzard.com",
       "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-15/2360696/6",
       "date": "2026-10-15",
+      "kind": "official"
+    },
+    "dn-oct26": {
+      "name": "Beta Development Notes (Oct 26, racials; additions Oct 27)",
+      "site": "us.forums.blizzard.com",
+      "url": "https://us.forums.blizzard.com/en/wow/t/wow-forever-beta-development-notes-%E2%80%93-updated-october-26/2360696/7",
+      "date": "2026-10-26",
       "kind": "official"
     },
     "war-oct2": { "name": "Warrior Updates in Today's Beta Build", "site": "us.forums.blizzard.com", "url": "https://us.forums.blizzard.com/en/wow/t/warrior-updates-in-todays-beta-build/2369360/1", "date": "2026-10-02", "kind": "official" },
@@ -148,9 +155,9 @@
       "capital": "Orgrimmar",
       "classes": ["war", "hun", "rog", "sha", "mag", "wlk"],
       "racials": [
-        { "name": "Blood Fury", "kind": "active", "t": "+10% Attack Power and Spell Power for 15 sec. Cooldown now 3 min (was 2).", "tag": "dev", "src": "dn-oct15", "icon": "racial_orc_berserkerstrength" },
+        { "name": "Blood Fury", "kind": "active", "t": "+10% Attack Power and Spell Power for 15 sec. Cooldown back to 2 min (was 3 in the beta).", "tag": "dev", "src": "dn-oct26", "icon": "racial_orc_berserkerstrength" },
         { "name": "Shatter Curse", "kind": "active", "t": "Now dispels Curses and Banes, and cuts magic damage taken by 5% (was 15%).", "tag": "dev", "src": "dn-oct15", "icon": "spell_nature_removecurse" },
-        { "name": "Savage", "kind": "passive", "t": "+1% critical strike chance. Replaces Axe Specialization.", "tag": "dev", "src": "dn-oct15", "icon": "inv_axe_02" },
+        { "name": "Command", "kind": "passive", "t": "Hunter and Warlock pets deal 5% more damage. Replaces Savage.", "tag": "dev", "src": "dn-oct26", "icon": "ability_warrior_warcry" },
         { "name": "Hardiness", "kind": "passive", "t": "Stuns on you last 20% shorter.", "tag": "dev", "src": "races", "icon": "inv_helmet_23" }
       ],
       "census": { "share": 9.7, "src": "census" },
@@ -173,7 +180,7 @@
         { "name": "Will of the Forsaken", "kind": "active", "t": "Removes Charm, Fear and Sleep, but no longer grants immunity afterward.", "tag": "dev", "src": "deep-dive", "icon": "spell_shadow_raisedead" },
         { "name": "Cannibalize", "kind": "active", "t": "Eat a corpse to regenerate 35% of your Health, and now Mana too.", "tag": "dev", "src": "races", "icon": "ability_racial_cannibalize" },
         { "name": "Underwater Breathing", "kind": "passive", "t": "Breathe 300% longer underwater.", "tag": "dev", "src": "races", "icon": "spell_shadow_demonbreath" },
-        { "name": "Touch of the Grave", "kind": "passive", "t": "Attacks may drain health: 30% chance for casters, 20% for melee, 25-sec cooldown.", "tag": "dev", "src": "dn-oct15", "icon": "spell_shadow_fingerofdeath" }
+        { "name": "Touch of the Grave", "kind": "passive", "t": "Attacks may drain health: 30% chance for casters, 20% for melee. Cooldown now 15 sec (was 25).", "tag": "dev", "src": "dn-oct26", "icon": "spell_shadow_fingerofdeath" }
       ],
       "census": { "share": 17.4, "src": "census" },
       "facts": [
@@ -195,8 +202,8 @@
       "racials": [
         { "name": "War Stomp", "kind": "active", "t": "Stuns nearby enemies for 2 sec. Cooldown now 90 sec (was 2 min).", "tag": "dev", "src": "dn-oct15", "icon": "ability_warstomp" },
         { "name": "Cultivation", "kind": "active", "t": "Grows a bonus herb anyone can pick, no Herbalism needed. Cooldown now 15 min.", "tag": "dev", "src": "dn-oct15", "icon": "inv_misc_flower_01" },
-        { "name": "Plainsrunning", "kind": "passive", "t": "Speed builds while you keep moving, plus 3% mounted speed.", "tag": "dev", "src": "dn-oct15", "icon": "achievement_zone_barrens_01" },
-        { "name": "Endurance", "kind": "passive", "t": "+5% total Health and +2% critical damage and healing.", "tag": "dev", "src": "dn-oct15", "icon": "spell_nature_unyeildingstamina" }
+        { "name": "Plainsrunning", "kind": "passive", "t": "Run speed builds 2% per stack while you keep moving, up to 60% (was 30%). No longer boosts mounted speed.", "tag": "dev", "src": "dn-oct26", "icon": "achievement_zone_barrens_01" },
+        { "name": "Endurance", "kind": "passive", "t": "+5% total Health. The critical damage and healing bonus was removed.", "tag": "dev", "src": "dn-oct26", "icon": "spell_nature_unyeildingstamina" }
       ],
       "census": { "share": 7.7, "src": "census" },
       "facts": [],
@@ -236,8 +243,8 @@
       "classes": ["war", "hun", "rog", "sha", "dru"],
       "racials": [
         { "name": "Walk on Air", "kind": "active", "t": "Glide gently downward through the air for 10 sec. Cooldown now 90 sec (was 2 min).", "tag": "dev", "src": "dn-oct15", "icon": "inv_elemental_primal_air" },
-        { "name": "Skysight", "kind": "active", "t": "An Elemental Blessing: 10% faster run speed. Now castable while moving.", "tag": "dev", "src": "dn-oct15", "icon": "ability_skyreach_lens_flare" },
-        { "name": "Wind Blessed", "kind": "passive", "t": "+3% Haste for melee, ranged and spells (was 1%).", "tag": "dev", "src": "dn-oct15", "icon": "inv_misc_volatileair" },
+        { "name": "Skysight", "kind": "active", "t": "15% faster run speed for 15 sec. At an elemental convergence: 30% for 1 hour, even through death.", "tag": "dev", "src": "dn-oct26", "icon": "ability_skyreach_lens_flare" },
+        { "name": "Wind Blessed", "kind": "passive", "t": "+2% Haste for melee, ranged and spells (was 3%).", "tag": "dev", "src": "dn-oct26", "icon": "inv_misc_volatileair" },
         { "name": "Elemental Insight", "kind": "passive", "t": "+5% damage against Elementals.", "tag": "dev", "src": "races", "icon": "achievement_raidprimalist_windelemental" }
       ],
       "census": { "share": 9.6, "src": "census" },
@@ -261,8 +268,8 @@
       "racials": [
         { "name": "Will to Survive", "kind": "active", "t": "Break free of stun effects.", "tag": "dev", "src": "races", "icon": "spell_shadow_charm" },
         { "name": "Perception", "kind": "active", "t": "Detect stealthed enemies for 20 sec.", "tag": "dev", "src": "races", "icon": "spell_nature_sleep" },
-        { "name": "Ruthless", "kind": "passive", "t": "+2% critical strike chance. Replaces Sword Specialization.", "tag": "dev", "src": "dn-oct15", "icon": "ability_rogue_eviscerate" },
-        { "name": "The Human Spirit", "kind": "passive", "t": "+5% Spirit.", "tag": "dev", "src": "races", "icon": "inv_enchant_shardbrilliantsmall" }
+        { "name": "Ruthless", "kind": "passive", "t": "+1% critical strike chance (was 2%). Replaces Sword Specialization.", "tag": "dev", "src": "dn-oct26", "icon": "ability_rogue_eviscerate" },
+        { "name": "The Human Spirit", "kind": "passive", "t": "+10% Spirit (was 5%).", "tag": "dev", "src": "dn-oct26", "icon": "inv_enchant_shardbrilliantsmall" }
       ],
       "census": { "share": 15.7, "src": "census" },
       "facts": [
@@ -283,7 +290,7 @@
       "racials": [
         { "name": "Stoneform", "kind": "active", "t": "Immune to Bleeds, Poisons and Diseases, and less Physical damage taken, for 8 sec.", "tag": "dev", "src": "races", "icon": "spell_shadow_unholystrength" },
         { "name": "Find Treasure", "kind": "active", "t": "Track treasure chests, now with a chance of extra items in most chests.", "tag": "dev", "src": "dn-oct15", "icon": "racial_dwarf_findtreasure" },
-        { "name": "Earth Fury", "kind": "passive", "t": "+2% critical damage and healing. Replaces Mace Specialization.", "tag": "dev", "src": "dn-oct15", "icon": "spell_shaman_unleashweapon_earth" },
+        { "name": "Artisan's Precision", "kind": "passive", "t": "+1% hit chance with spells and attacks. Replaces Earth Fury.", "tag": "dev", "src": "dn-oct26", "icon": "inv_misc_spyglass_03" },
         { "name": "Big Game Hunter", "kind": "passive", "t": "+5% damage against Beasts.", "tag": "dev", "src": "races", "icon": "inv_weapon_rifle_05" }
       ],
       "census": { "share": 7.9, "src": "census" },
@@ -347,8 +354,8 @@
       "classes": ["war", "hun", "rog", "mag", "dru"],
       "racials": [
         { "name": "Walk on Air", "kind": "active", "t": "Glide gently downward through the air for 10 sec. Cooldown now 90 sec (was 2 min).", "tag": "dev", "src": "dn-oct15", "icon": "inv_elemental_primal_air" },
-        { "name": "Read Ley Line", "kind": "active", "t": "Doubles Health and Mana regeneration; now castable while moving, lasting at least 30 sec.", "tag": "dev", "src": "dn-oct15", "icon": "ability_mage_incantersabsorbtion" },
-        { "name": "Wind Blessed", "kind": "passive", "t": "+3% Haste for melee, ranged and spells (was 1%).", "tag": "dev", "src": "dn-oct15", "icon": "inv_misc_volatileair" },
+        { "name": "Read Leyline", "kind": "active", "t": "+50% Health and Mana regeneration for 15 sec. At a Ley Line: +100% for 1 hour. Not during Innervate.", "tag": "dev", "src": "dn-oct26", "icon": "ability_mage_incantersabsorbtion" },
+        { "name": "Wind Blessed", "kind": "passive", "t": "+2% Haste for melee, ranged and spells (was 3%).", "tag": "dev", "src": "dn-oct26", "icon": "inv_misc_volatileair" },
         { "name": "Elemental Insight", "kind": "passive", "t": "+5% damage against Elementals.", "tag": "dev", "src": "races", "icon": "achievement_raidprimalist_windelemental" }
       ],
       "census": { "share": 9.1, "src": "census" },
